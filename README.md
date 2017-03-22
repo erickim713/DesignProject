@@ -15,6 +15,7 @@ We are planning to redesign the experience of drinking
 
 ### Interview 1 
  > <img src="/pubdog.jpg" width="400">
+ > <img src="/interview1.jpg" width="400">
  >
  > - Age/Sex : 38, Female
  > - Occupation : Pub owner
