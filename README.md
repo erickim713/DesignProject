@@ -50,7 +50,7 @@ We are planning to redesign the experience of drinking
  > - Occupation : Graduate Student
  > - Interviewer : Sangyeob Lee
  
-
+ >Hyungmuk is a graduate student who drinks very frequently. He collects beer mugs and when he drinks, he uses corresponding mug for the beer. He drinks 4-5 times a week and 2-3 cans of beer at a time. However, most of the time he drinks alone at home. When he selects a pub, he values the taste of beer over the other factors, but the price is also important. He prefers non-sweet fizzy beer, and soup for the snack. Hyungmuk thinks he knows more about beers than the other people, but he wanted to explore more kind of beer. He does not have particular philosophy on drinking. But when he recruits drinkers, he tends to call people who like drinking, because they are relatively easier to call. When there are uncomfortable person in the group, he acts as if he likes the person and drink a lot. After a while, the boundary of like/dislike disappears by the power of alcohol. 
 
 -----------
 ### **Needs:**
