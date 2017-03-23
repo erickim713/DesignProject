@@ -14,8 +14,8 @@ We are planning to redesign the experience of drinking
 
 
 ### Interview 1 
- > <img src="https://github.com/erickim713/DesignProject/blob/master/pubdog.jpg?raw=true" width="400">
- > <img src="https://github.com/erickim713/DesignProject/blob/master/interview1.jpg?raw=true" width="400">
+ > <img src="pubdog.jpg" width="400">
+ > <img src="interview1.jpg" width="400">
  >
  > - Age/Sex : 38, Female
  > - Occupation : Pub owner
@@ -24,7 +24,7 @@ We are planning to redesign the experience of drinking
 > Jiyeon and her husband owns a well-known pub that specializes in beer. Their most popular items are craft beers that they make. The pub attracts all types of people, ranging from university students, who want to find a good quality beer to foreigners in the area. Many people actually are long time regular customers, who seek for unique and high quality drinks. When interviewing Jiyeon, she was quite humble, despite the fact that she owns a bar and probably has way more knowledge about drinks than average drinkers. Unlike other interviewees, there were some interesting comments that were due to her deeper understanding of drinks. She has a specific preference in the types of beers: sour ale, IPA and not too cold beer. When going out for a drink, she will definitely explore new beers, but she knows what she is ordering. Therefore, if she is with her friends, they will order different drinks, and actually line them up to create a order in which one to drink first. Although it felt like she knew a lot about beers, both her and her husband mentioned that they will never know a lot about beers, because there are way too many variety of beers and that crafting beer is a very delicate and sensitive process. They say even getting the right flatness of a beer is a very difficult process and that most people cannot distinguish a flat beer from a non-flat one. Additionally, Jiyeon mentioned that she rarely gets sweet drinks and that the reason is calories. As she got older, she does not drink more than 2 drinks a night, and because she is now more aware of the hangovers, she refrains from overdrinking. She drinks 3~4 times a week, and drinking is normally not planned, because the most frequent motivation to drink is self reward and then, the special occasions, like seeing friends in a long time, follow. When asked about exploring different bars and the important factors that are considered when choosing a place to drink, she said she does not normally have time to do such things, since she runs her bar at night. But she always keeps an eye on places she want to go, when she have a free night. 
 
 ### Interview 2
-> <img src="https://github.com/erickim713/DesignProject/blob/master/researcher.png?raw=true" width="400">
+> <img src="researcher.png" width="400">
 >
 > - Age/Sex : 26, Male
 > - Occupation: Researcher
@@ -34,7 +34,7 @@ We are planning to redesign the experience of drinking
 
 
 ### Interview 3
-><img src="https://github.com/erickim713/DesignProject/blob/master/workerdiagram.png?raw=true" width="400">
+><img src="workerdiagram.png" width="400">
 >
 > - Age/Sex : 27, Female
 > - Occupation: Office Worker
@@ -44,7 +44,7 @@ We are planning to redesign the experience of drinking
 
 
 ### Interview 4
- > <img src="https://github.com/erickim713/DesignProject/blob/master/20170317_035423.jpg?raw=true" width="400">
+ > <img src="20170317_035423.jpg" width="400">
  >
  > - Age/Sex : 23, Male
  > - Occupation : Graduate Student
