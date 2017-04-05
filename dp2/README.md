@@ -8,10 +8,16 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 
 ### **Point of View(POV):**
 
+USER - someone who frequently goes out to drink<br />
+USER’S NEED - tools to aid him with his inconveniences<br />
+INSIGHT - he often encounters multiple problems during those occasions
 
 -----------
 ### **Personas:**
 
+<img src="tom.jpg" />
+
+> &nbsp;&nbsp;&nbsp;&nbsp;Tom is a 24 year-old office worker who enjoys drinking a lot, especially during the weekends. However, he often drinks too much and cannot remember what happened the night before. On top of having a hangover, he gets frustrated and curious about where he have been to and what he have done last night. So, he will check his credit card history to try to track his whereabouts and ask his friends to recall his memory. From these attempts, he often finds out that he has been to a very random and unexpected place and spent money there. He thinks it is amusing to find out about his lost memories. 
 
 -----------
 ### **How Might We (HMW) Questions:**
