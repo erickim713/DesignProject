@@ -36,17 +36,64 @@ How Might We...<br />
 + inform users about what happened the night before?
 
 **Top 3 HMW:**
-> **how might we make the experience of taking care of the drunk less arduous or more rewarding?** <br /><br />
+> **How might we make the experience of taking care of the drunk less arduous or more rewarding?** <br /><br />
 > &nbsp;&nbsp;&nbsp;&nbsp; At the end of the night, the sober usually takes care of the drunk. Since they are voluntarily doing this, we thought they would be happier if they were rewarded for their efforts.
 
-> **how might we allow the users to get alcohol at a cheaper price?** <br /><br />
+> **How might we allow the users to get alcohol at a cheaper price?** <br /><br />
 > &nbsp;&nbsp;&nbsp;&nbsp; People going out to drink face this problem often times; since alcohols are not free, going out to drink can be financially burdensome. 
 
-> **how might we inform users about what happened the night before?** <br /><br />
+> **How might we inform users about what happened the night before?** <br /><br />
 > &nbsp;&nbsp;&nbsp;&nbsp; People often become curious about what happened the night before when they see mysterious bruises or empty wallets. Perhaps they can solve this curiosity without bothering the person who took care of them.
 
 -----------
 ### **Solutions Ideas**
+
+> 1. How might we make the experience of taking care of the drunk less arduous? 
+<br />
+**[Top Solution]** Set a reward for taking the user home (DrunkenGO)
+<br />
++ GPS detects drunken person reaching the destination, then sends SMS confirmation
++ QR codes for providing information about the drunken
++ Professional escorting service
++ Provide information about accommodation nearby the pub
++ Cart rental service for transporting the drunk
++ Inform friends about how much a user can drink
++ Develop a game to test soberness where the loser pays for the drink
++ Scheduled message as a thank-you letter with a gift voucher
++ Keep a list of close friends who will probably help out
+
+-----------
+
+> 2. How might we allow the users to get alcohol at a cheaper price?
+<br />
+**[Top Solution]** If you advertise sales to friends, your discount rate increases
+<br />
++ Match people to buy drinks at a bulk price (공동구매)
++ Create a portal of information for discount information on drinks
++ Provide a service for teaching how to brew simple drinks
++ Receive discounts for creating a party to go drinking
++ Create a website that compares the different prices of the same kind of drink
++ Provide a system that users can receive discounts for leaving reviews of the pubs
++ Create packages in which less popular drinks have to be bought, but at a cheaper price
++ Keep track of the drinks bought, and give a free drink once in awhile (mobile coupon)
++ Lock screen advertisement to accumulate points to use later
+-----------
+> 3. How might we inform users about what happened the night before?
+<br />
+**[Top Solution]** GPS history to show course of location
+<br />
++ Automatically recording video/audio
++ Keep a list of payments made with images
++ Logging system for each drinking occasion (톡방에 공유하듯)
++ Pair night-out (drinker, non drinker)
++ Provide application use statistics
++ Set up a black box that records events for each table
++ Random timers for a picture time
++ Board for damages done by the drunk within the community
++ Bartenders’ diary for recording significant events
+
+**Solution Selection Process**
+>The solutions that we selected were based on multiple criterion. First of all, we chose the most feasible solution that we could minimally implement by the end of this semester. But at the same time, we did not want to choose a solution that was too obvious or uncreative. We thought that DrunkenGO was an inventive idea because it was a parody of a recently popular game, PokemonGO. For the problem of alcohol being a financial burden, we chose the advertising solution because it created a good win-win situation for the alcohol seller and the buyers. Finally, for informing the user about what happened the night before, we came up with a solution that did not use groundbreaking technology, but a simple solution that was original. After the feedback from our presentation, we figured that we could add some parts of the other solutions that we initially thought of (such as the recordings or random timers).
 
 
 -----------
@@ -74,6 +121,8 @@ The morning after drinking, we often find ourselves unable to remember what had 
 
 ### **Studio Reflections:** 
 
-**Feedback Summary**: 
- 
-**Course of Action**: 
+**Feedback Summary && Course of Action**: 
+
+>&nbsp;&nbsp;&nbsp;&nbsp;One of our fellow students pointed out that it would be nice to have recordings of audio and video during the occasion so that users can remember and store memorable things that they said. We accepted the feedback as we are currently thinking about media such as random recordings, photos taken at set time intervals, GPS information, and the credit card payment histories to allow the users to gather up their scattered pieces of memories.
+<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;We agree to the TA's point that although DrunkenGO seems like a fun solution, it may be quite difficult to extract some kind of motivation for the volunteer who takes care of the drunk. We will need to consider what the reward and motivation would be, and how it will be given to the volunteer. Our course of action was to put off the DrunkenGO solution for a while and to stick to the more realistic and practical "Drunken Path" solution.
