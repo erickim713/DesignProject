@@ -48,10 +48,10 @@ How Might We...<br />
 -----------
 ### **Solutions Ideas**
 
-> 1. How might we make the experience of taking care of the drunk less arduous? 
-<br />
+> 1 . How might we make the experience of taking care of the drunk less arduous? 
+
 **[Top Solution]** Set a reward for taking the user home (DrunkenGO)
-<br />
+
 + GPS detects drunken person reaching the destination, then sends SMS confirmation
 + QR codes for providing information about the drunken
 + Professional escorting service
@@ -64,10 +64,10 @@ How Might We...<br />
 
 -----------
 
-> 2. How might we allow the users to get alcohol at a cheaper price?
-<br />
+> 2 . How might we allow the users to get alcohol at a cheaper price?
+
 **[Top Solution]** If you advertise sales to friends, your discount rate increases
-<br />
+
 + Match people to buy drinks at a bulk price (공동구매)
 + Create a portal of information for discount information on drinks
 + Provide a service for teaching how to brew simple drinks
@@ -78,10 +78,10 @@ How Might We...<br />
 + Keep track of the drinks bought, and give a free drink once in awhile (mobile coupon)
 + Lock screen advertisement to accumulate points to use later
 -----------
-> 3. How might we inform users about what happened the night before?
-<br />
+> 3 . How might we inform users about what happened the night before?
+
 **[Top Solution]** GPS history to show course of location
-<br />
+
 + Automatically recording video/audio
 + Keep a list of payments made with images
 + Logging system for each drinking occasion (톡방에 공유하듯)
