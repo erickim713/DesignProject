@@ -35,10 +35,10 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 -----------
 ### **Participants:**
 
-* Male, 24, Friend of ours
-* Male, 23, Friend of ours
-* Female, 20, Stragner at Cafe
-* Male, 22, Roommate
+* P1 - Male, 24, Friend of ours
+* P2 - Male, 23, Friend of ours
+* P3 - Female, 20, Stragner at Cafe
+* P4 - Male, 22, Roommate
 
 -----------
 ### **Briefing:**
@@ -60,33 +60,33 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 ### **Observations**
 
 #### Start Recording
-* (Good) Recording task is easy and simple
+* (Good, P1) Recording task is easy and simple
   * Continue to keep things simple
-* (Low) User pressed View History button out of curiosity
+* (Low, P2) User pressed View History button out of curiosity
   * Perhaps use an inactive history button on the opening screen to indicate that there is no history initially
-* (Medium) Wrong buttons may be pressed during the night
+* (Medium, P2) Wrong buttons may be pressed during the night
   * Perhaps make it a background process while recording
-* (High) User does not know when the recording will stop
+* (High, P3) User does not know when the recording will stop
   * Provide end time
 
 #### View history (the drinking occasion)
-* (High) Pressing the soju bottle icon in the calendar was not obvious
+* (High, P1) Pressing the soju bottle icon in the calendar was not obvious
   * Perhaps animate the icon or show a demo of clicking it
-* (Medium) User cannot know when to take a picture with the given GUI
+* (Medium, P3, P4) User cannot know when to take a picture with the given GUI
   * Pop an alarm every set amount of time so that user can record what is happening if he/she is still sober
-* (Medium) The current implementation does not make the recording special
+* (Medium, P4) The current implementation does not make the recording special
   * Add call and chat history to make the occasion more memorable
-* (Low) User felt that privacy may become a problem (embarrasing memories)
+* (Low, P2) User felt that privacy may become a problem (embarrasing memories)
   * Maybe add a password to provide privacy, however quite off track of what we are trying to do
 
 #### View history (the journey back home)
-* (High) The time intervals are too big
+* (High, P2, P4) The time intervals are too big
   * Smaller time intervals would make browsing/scrolling through time more convenient
-* (High) The payment records did not look obvious at first glance
+* (High, P3) The payment records did not look obvious at first glance
   * Create some kind of visual aid to show the amount of money used at an occasion
-* (Medium) Friends cannot provide user with information about the night before
+* (Medium, P1) Friends cannot provide user with information about the night before
   * Since friends often help in recounting memories, it would be nice to have them add information
-* (Low) What if there are memories stored that you want to forget?
+* (Low, P2) What if there are memories stored that you want to forget?
   * Perhpas create a managing system where user can add/edit/delete memories
 
 -----------
