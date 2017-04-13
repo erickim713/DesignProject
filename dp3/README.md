@@ -8,6 +8,12 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 
 ### **Photos of your prototype:**
 
+<img src="/main.jpeg" />
+<img src="/recording.jpeg" />
+<img src="/calendar.jpeg" />
+<img src="/occasion.jpeg" />
+<img src="/path_map.jpeg" />
+<img src="/path_street.jpeg" />
 -----------
 ### **Participants:**
 
