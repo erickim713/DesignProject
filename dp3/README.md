@@ -10,15 +10,15 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 
 <img src="main.jpeg" />
 
-> Main menu
+> Main menu. The user can either start recording or view their history from this page.
 
 <img src="recording.jpeg" />
 
-> Recording screen. Users can reach here by click/tapping on the start recording button on the main menu.
+> Recording screen. Users reach here by clicking/tapping on the "start recording" button on the main menu. When the stop button is pressed, recording will stop immediately.
 
 <img src="calendar.jpeg" />
 
-> When clicking/tapping view history button on the main menu, this calendar will show up. The soju bottles represent days you recorded.
+> When clicking/tapping view history button on the main menu, this calendar will show up. The soju bottles represent days you recorded, and when pressed, will take you to the histories of that day.
 
 <img src="occasion.jpeg" />
 
@@ -35,6 +35,11 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 -----------
 ### **Participants:**
 
+* Male, 24, Friend of ours
+* Male, 23, Friend of ours
+* Female, 20, Stragner at Cafe
+* Male, 22, Roommate
+
 -----------
 ### **Briefing:**
 
@@ -42,7 +47,7 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 
 >In our application, we make it easy for the user to start recording their night and to check out what they did when they wake up the next morning (hopefully). Since people are interested in where they were and what they did or said the night before, we provided a user interface and functions to do just that in our application.
 
-*Summary: We showed the participants the same two paragraphs we wrote above. It explains what we are trying to do and briefly hint what user can expect from our prototype*
+*Summary: We showed the participants the same two paragraphs we wrote above. It explains what we are trying to do and briefly provide hints at what the user can expect from our prototype*
 
 -----------
 ### **Tasks**
@@ -56,33 +61,33 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 
 #### Start Recording
 * (Good) Recording task is easy and simple
- - Continue to keep things simple
+  * Continue to keep things simple
 * (Low) User pressed View History button out of curiosity
- - Perhaps use an inactive history button on the opening screen to indicate that there is no history initially
+  * Perhaps use an inactive history button on the opening screen to indicate that there is no history initially
 * (Medium) Wrong buttons may be pressed during the night
- - Perhaps make it a background process while recording
+  * Perhaps make it a background process while recording
 * (High) User does not know when the recording will stop
- - Provide end time
+  * Provide end time
 
 #### View history (the drinking occasion)
 * (High) Pressing the soju bottle icon in the calendar was not obvious
- - Perhaps animate the icon or show a demo of clicking it
+  * Perhaps animate the icon or show a demo of clicking it
 * (Medium) User cannot know when to take a picture with the given GUI
- - Pop an alarm every set amount of time so that user can record what is happening if he/she is still sober
+  * Pop an alarm every set amount of time so that user can record what is happening if he/she is still sober
 * (Medium) The current implementation does not make the recording special
- - Add call and chat history to make the occasion more memorable
+  * Add call and chat history to make the occasion more memorable
 * (Low) User felt that privacy may become a problem (embarrasing memories)
- - Maybe add a password to provide privacy, however quite off track of what we are trying to do
+  * Maybe add a password to provide privacy, however quite off track of what we are trying to do
 
 #### View history (the journey back home)
 * (High) The time intervals are too big
- - Smaller time intervals would make browsing/scrolling through time more convenient
+  * Smaller time intervals would make browsing/scrolling through time more convenient
 * (High) The payment records did not look obvious at first glance
- - Create some kind of visual aid to show the amount of money used at an occasion
+  * Create some kind of visual aid to show the amount of money used at an occasion
 * (Medium) Friends cannot provide user with information about the night before
- - Since friends often help in recounting memories, it would be nice to have them add information
+  * Since friends often help in recounting memories, it would be nice to have them add information
 * (Low) What if there are memories stored that you want to forget?
- - Perhpas create a managing system where user can add/edit/delete memories
+  * Perhpas create a managing system where user can add/edit/delete memories
 
 -----------
 ### **Individual Reflections**
