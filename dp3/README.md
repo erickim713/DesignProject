@@ -35,11 +35,14 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 -----------
 ### **Participants:**
 
+
+
 * P1 - Male, 24, Friend of ours
 * P2 - Male, 23, Friend of ours
 * P3 - Female, 20, Stragner at Cafe
 * P4 - Male, 22, Roommate
 
+*Selection process: We tried to select people who are close to our current working persona. Maybe our sample participants pool is not wide enough but we thought that it was good for paper prototype testing.*
 -----------
 ### **Briefing:**
 
