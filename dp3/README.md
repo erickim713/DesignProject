@@ -8,12 +8,30 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 
 ### **Photos of your prototype:**
 
-<img src="/main.jpeg" />
-<img src="/recording.jpeg" />
-<img src="/calendar.jpeg" />
-<img src="/occasion.jpeg" />
-<img src="/path_map.jpeg" />
-<img src="/path_street.jpeg" />
+<img src="main.jpeg" />
+
+> Main menu
+
+<img src="recording.jpeg" />
+
+> Recording screen. Users can reach here by click/tapping on the start recording button on the main menu.
+
+<img src="calendar.jpeg" />
+
+> When clicking/tapping view history button on the main menu, this calendar will show up. The soju bottles represent days you recorded.
+
+<img src="occasion.jpeg" />
+
+> After selecting a date in the calendar, photos of the day will be displayed
+
+<img src="path_map.jpeg" />
+
+> And by tapping on the path tab on the top, the user can see where he/she was and what he/she did on the day. The list of activity, time, and marker on the map are scrollable and once the user moves one of it, the others will move along.
+
+<img src="path_street.jpeg" />
+
+> When zooming the map, the user will be able to see the map in street view
+
 -----------
 ### **Participants:**
 
