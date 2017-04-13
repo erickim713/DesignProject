@@ -65,3 +65,12 @@ KyungYun Lee: During prototype testing, I was the observer. As I was not able to
 
 **Feedback Summary && Course of Action**: 
 
+#### Feedback
+* TA agreed on our opinion about minimizing the functions and focusing on the main purpose.
+* The amount of work that is expected from our implementation of the project seems manageable for the purpose of this course. 
+
+#### Course of Action
+* Think about the overall flow of the user actions (perhaps write out what kind of steps the user might take)
+* Make extra functions optional so that the core function has minimal steps to be reached
+
+
