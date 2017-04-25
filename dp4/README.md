@@ -46,16 +46,20 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
   * can show up to 5 most recent histories in one page and users can scroll down like a blog and additionally we can make a button to view all past histories, which can lead us to the calendar page
   
 * Need more information/detail about the visited places, money spent, calls made
-  * click on the entries and expand 
+  * click on the entries and expand to show more details
   
 * Starting and ending the recording is not understandable. Users are confused whether the recording automatically stops or not and what would happen when the user forgets to stop recording.
   * hmm 어떻게하지
+  * when the user presses stop, it should not lead to the main page, but rather display the accumulated information so far for that night.
+  * stop button should change to a resume button, in case the user accidentally clicked stop
   
 * Wants the visualization of the exact path 
 
 * Confusion about how the photos will be taken and gets added to the photo section
   * Photo syncing with album?
   * Alarm the user to take photos (every 1 hour? 2 hours? depending on user settings)
+ 
+* Asking for permission for the gps access as the starting page is not necessary. It should be shown when the user starts recording ofr the first time or when the user's setting to the permission is int "not allowed" state.
   
 -----------
 ### **Paper vs Digital**
