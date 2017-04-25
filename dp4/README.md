@@ -41,8 +41,36 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 -----------
 ### **Observations**
 
+* The user always has to select dates from the calendar
+  * provide a default page with the most recent history, because most of the time, the user wants to check the most recent history(last night)
+  * can show up to 5 most recent histories in one page and users can scroll down like a blog and additionally we can make a button to view all past histories, which can lead us to the calendar page
+  
+* Need more information/detail about the visited places, money spent, calls made
+  * click on the entries and expand 
+  
+* Starting and ending the recording is not understandable. Users are confused whether the recording automatically stops or not and what would happen when the user forgets to stop recording.
+  * hmm 어떻게하지
+  
+* Wants the visualization of the exact path 
+
+* Confusion about how the photos will be taken and gets added to the photo section
+  * Photo syncing with album?
+  * Alarm the user to take photos (every 1 hour? 2 hours? depending on user settings)
+  
 -----------
 ### **Paper vs Digital**
+
+* Types of usability issues that digital prototypes helped to identify
+  * To check smooth and natural transition between tasks
+  * To see whether there are awkward motions or actions required
+  * 
+
+* participant's reaction and expectation to prototypes
+  * participants generally had higher expectation when using digital prototypes, so a little bit less patient
+  * 
+* changes made from paper to digital prototype
+  * confirm from users that gps information will be collected 
+  * 
 
 -----------
 
