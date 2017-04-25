@@ -27,11 +27,11 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 *  **Design Choices** : 
 
 *  **Representative Screenshots** : 
-<img src="home.png" />
-<img src="record.png" />
-<img src="calendar.png" />
-<img src="occasion.png" />
-<img src="path.png" />
+<img src="home.png" width="400"/>
+<img src="record.png" width="400" />
+<img src="calendar.png" width="400"/>
+<img src="occasion.png" width="400"/>
+<img src="path.png" width="400"/>
 
 *  **Instructions** :
 > our prototype is accessible through following link: https://marvelapp.com/43g90a1/screen/27327836 
