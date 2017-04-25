@@ -24,7 +24,7 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 
 * **Prototyping tool**: We used marvelapp.com for our digital prototyping because the other two did not have what we wanted such as sharing or directly making a UI with the prototyping program's User Interface. For example, proto.io did not have sharing ability so it was difficult to "share" and co-work. Invision did have sharing but it did not have user interface tool to directly create UI; the program required the user to draw and upload. 
 
-*  **Design Choices** : 
+*  **Design Choices** : We chose not to implement smooth transition in time because that would take a lot of time. We first wanted to check through this Lo-fi prototype if our idea of history timeline made sense to the user. Additional feature of seeing the cost and zooming in on the map were not implemented. Cost display and zooming were not implemented because we wanted to see what was enough information for the users. Lastly, we didn't implement actual timer ticking; however, we did implement the future recording page to see if the user had any difficulty of stopping recording time via our simple user interface.
 
 *  **Representative Screenshots** : 
 <img src="home.png" width="400"/>
