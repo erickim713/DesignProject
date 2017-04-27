@@ -41,38 +41,42 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 -----------
 ### **Observations**
 
-* [MID] The user always has to select dates from the calendar
-  * Provide a default page with the most recent history, because most of the time, the user wants to check the most recent history(last night)
-  * Can show up to 5 most recent histories in one page and users can scroll down like a blog and additionally we can make a button to view all past histories, which can lead us to the calendar page
-  
-* [MID] Need more information/detail about the visited places, money spent, calls made
-  * Click on the entries and expand to show more details
-  
+**Start recording**
 * [HIGH] Starting and ending the recording is not understandable. Users are confused whether the recording automatically stops or not and what would happen when the user forgets to stop recording.
   * When the user presses stop, it should not lead to the main page, but rather display the accumulated information so far for that night
   * Stop button should change to a resume button, in case the user accidentally clicked stop
-
+  
 * [LOW] The user may want to have multiple recordings in a night
   * We will have to decide whether we will organize the data by dates, or by each started/ended recording
 
-* [HIGH] Users want the visualization of the exact path 
-  * Have more frequent GPS readings and then connect-the-dots
+* [MID] Asking for permission for the gps access as the starting page is not necessary. It should be shown when the user starts recording for the first time or when the user's setting to the permission is int "not allowed" state.
+  * It definitely should not ask the user every time he opens the application.
+  
+**Recall what you did last night (during the drinking occasion)**
+* [MID] The user always has to select dates from the calendar
+  * Provide a default page with the most recent history, because most of the time, the user wants to check the most recent history(last night)
+  * Can show up to 5 most recent histories in one page and users can scroll down like a blog and additionally we can make a button to view all past histories, which can lead us to the calendar page
 
 * [LOW] When pressing the photo in the occasion tab, there needs to be more information such as money spent or tags of people that the user was with at the time.
   * For now, we could make the photo "unclickable", in order to suggest that the user can't do anything with the photos at the moment.
-
-* [MID] It would be better to have consistent contents in the path and occasion tabs
-  * They were initially designed to have different contents, because the occasion tab will mostly consist of media recordings while the path tab will mostly consist of GPS recordings. Perhaps some kind of relationship could be suggested in our later prototypes.
-
+  
 * [MID] Confusion about how the photos will be taken and gets added to the photo section
   * Photo syncing with album?
   * Alarm the user to take photos (every 1 hour? 2 hours? depending on user settings)
- 
+
+**Find out where you were last night (according to location)**
+* [MID] Need more information/detail about the visited places, money spent, calls made
+  * Click on the entries and expand to show more details
+
+* [HIGH] Users want the visualization of the exact path 
+  * Have more frequent GPS readings and then connect-the-dots
+  
+**Other**
+* [MID] It would be better to have consistent contents in the path and occasion tabs
+  * They were initially designed to have different contents, because the occasion tab will mostly consist of media recordings while the path tab will mostly consist of GPS recordings. Perhaps some kind of relationship could be suggested in our later prototypes.
+
 * [LOW] User needs to know more detail about how the recording will be done (automatically, manually, through alarms/notifications, etc.)
   * Perhaps a manual can be added to show how recording is done. GPS will be recorded automatically, while activities such as taking photos/videos will have to be done through notifications or manually. Organizing and presenting the historical data (such as call/chat history and other forms of media) should be done automatically.
-
-* [MID] Asking for permission for the gps access as the starting page is not necessary. It should be shown when the user starts recording for the first time or when the user's setting to the permission is int "not allowed" state.
-  * It definitely should not ask the user every time he opens the application.
   
 -----------
 ### **Paper vs Digital**
