@@ -49,7 +49,6 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
   * click on the entries and expand to show more details
   
 * Starting and ending the recording is not understandable. Users are confused whether the recording automatically stops or not and what would happen when the user forgets to stop recording.
-  * hmm 어떻게하지
   * when the user presses stop, it should not lead to the main page, but rather display the accumulated information so far for that night.
   * stop button should change to a resume button, in case the user accidentally clicked stop
   
@@ -65,14 +64,15 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 ### **Paper vs Digital**
 
 * Types of usability issues that digital prototypes helped to identify
-  * To check smooth and natural transition between tasks
-  * To see whether there are awkward motions or actions required
+  * to check smooth and natural transition between tasks
+  * to see whether there are awkward motions or actions required
   * 
 
-* participant's reaction and expectation to prototypes
+* Participant's reaction and expectation to prototypes
   * participants generally had higher expectation when using digital prototypes, so a little bit less patient
   * 
-* changes made from paper to digital prototype
+  
+* Changes made from paper to digital prototype
   * confirm from users that gps information will be collected 
   * 
 
