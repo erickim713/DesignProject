@@ -9,8 +9,8 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 
 ### **POV:**
 * **USER** - someone who frequently goes out to drink
-* **USER’S NEED** - tools to aid him remember what happened during drinking nights
-* **INSIGHT** - the user often does not remember after drinking too much when he wants or needs to remember.
+* **USER’S NEED** - tools to aid him to remember what happened during the past drinking occasions
+* **INSIGHT** - it is frustrating for the user who often fails to remember after drinking too much
 
 -----------
 ### **Tasks:**
