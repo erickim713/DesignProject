@@ -48,11 +48,17 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
   * Click on the entries and expand to show more details
   
 * Starting and ending the recording is not understandable. Users are confused whether the recording automatically stops or not and what would happen when the user forgets to stop recording.
-  * When the user presses stop, it should not lead to the main page, but rather display the accumulated information so far for that night.
+  * When the user presses stop, it should not lead to the main page, but rather display the accumulated information so far for that night
   * Stop button should change to a resume button, in case the user accidentally clicked stop
-  
-* Wants the visualization of the exact path 
+
+* The user may want to have multiple recordings in a night
+  * We will have to decide whether we will organize the data by dates, or by each started/ended recording
+
+* Users want the visualization of the exact path 
   * Have more frequent GPS readings and then connect-the-dots
+
+* When pressing the photo in the occasion tab, there needs to be more information such as money spent or tags of people that the user was with at the time.
+  * For now, we could make the photo "unclickable", in order to suggest that the user can't do anything with the photos at the moment.
 
 * It would be better to have consistent contents in the path and occasion tabs
   * They were initially designed to have different contents, because the occasion tab will mostly consist of media recordings while the path tab will mostly consist of GPS recordings. Perhaps some kind of relationship could be suggested in our later prototypes.
@@ -62,6 +68,7 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
   * Alarm the user to take photos (every 1 hour? 2 hours? depending on user settings)
  
 * Asking for permission for the gps access as the starting page is not necessary. It should be shown when the user starts recording for the first time or when the user's setting to the permission is int "not allowed" state.
+  * It definitely should not ask the user every time he opens the application.
   
 -----------
 ### **Paper vs Digital**
