@@ -67,6 +67,9 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
   * Photo syncing with album?
   * Alarm the user to take photos (every 1 hour? 2 hours? depending on user settings)
  
+* User needs to know more detail about how the recording will be done (automatically, manually, through alarms/notifications, etc.)
+  * Perhaps a manual can be added to show how recording is done. GPS will be recorded automatically, while activities such as taking photos/videos will have to be done through notifications or manually. Organizing and presenting the historical data (such as call/chat history and other forms of media) should be done automatically.
+
 * Asking for permission for the gps access as the starting page is not necessary. It should be shown when the user starts recording for the first time or when the user's setting to the permission is int "not allowed" state.
   * It definitely should not ask the user every time he opens the application.
   
