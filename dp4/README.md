@@ -36,7 +36,8 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 *  **Instructions** :
    * Our prototype is accessible through following link: https://marvelapp.com/43g90a1/screen/27327836 
    * When first opened press enable location access (it was made to pretend that we are using the location service to track the user).  The rest is self-explanatory. The user can start recording by pressing the record, there's a stop button when the user want to stop the recording. User can see the history (path and pictures) of drinking with view history.
-
+   * The prototype should be used very similarly to using a mobile application (actions such as clicking on buttons and switching tabs).
+   
 -----------
 ### **Observations**
 
