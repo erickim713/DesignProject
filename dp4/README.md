@@ -84,15 +84,19 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 * Types of usability issues that digital prototypes helped to identify
   * To check smooth and natural transition between tasks
   * To see whether there are awkward motions or actions required
-  * 
+  * To check affordances of UI elements
 
 * Participant's reaction and expectation to prototypes
   * Participants generally had higher expectation when using digital prototypes, so a little bit less patient
-  * 
+  * Participants understanded UI better and took less time to do the tasks than the paper prototype.
   
 * Changes made from paper to digital prototype
   * Confirm from users that gps information will be collected 
-  * 
+  * Smooth transactions between each views had implemented
+  * Status and navigation bars are added
+  * Time slider and list of events on path view has been changed into tabs for each time because it couldn't be implemented with the prototyping tool
+  * Larger image view is added. It shows up when clicking/tapping image in occasion view
+  * Soju bottles on calender are changed with color-filled rectangles
 
 -----------
 
