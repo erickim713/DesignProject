@@ -35,22 +35,21 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 
 *  **Instructions** :
    * Our prototype is accessible through following link: https://marvelapp.com/43g90a1/screen/27327836 
-
    * When first opened press enable location access (it was made to pretend that we are using the location service to track the user).  The rest is self-explanatory. The user can start recording by pressing the record, there's a stop button when the user want to stop the recording. User can see the history (path and pictures) of drinking with view history.
 
 -----------
 ### **Observations**
 
 * The user always has to select dates from the calendar
-  * provide a default page with the most recent history, because most of the time, the user wants to check the most recent history(last night)
-  * can show up to 5 most recent histories in one page and users can scroll down like a blog and additionally we can make a button to view all past histories, which can lead us to the calendar page
+  * Provide a default page with the most recent history, because most of the time, the user wants to check the most recent history(last night)
+  * Can show up to 5 most recent histories in one page and users can scroll down like a blog and additionally we can make a button to view all past histories, which can lead us to the calendar page
   
 * Need more information/detail about the visited places, money spent, calls made
-  * click on the entries and expand to show more details
+  * Click on the entries and expand to show more details
   
 * Starting and ending the recording is not understandable. Users are confused whether the recording automatically stops or not and what would happen when the user forgets to stop recording.
-  * when the user presses stop, it should not lead to the main page, but rather display the accumulated information so far for that night.
-  * stop button should change to a resume button, in case the user accidentally clicked stop
+  * When the user presses stop, it should not lead to the main page, but rather display the accumulated information so far for that night.
+  * Stop button should change to a resume button, in case the user accidentally clicked stop
   
 * Wants the visualization of the exact path 
 
@@ -64,16 +63,16 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 ### **Paper vs Digital**
 
 * Types of usability issues that digital prototypes helped to identify
-  * to check smooth and natural transition between tasks
-  * to see whether there are awkward motions or actions required
+  * To check smooth and natural transition between tasks
+  * To see whether there are awkward motions or actions required
   * 
 
 * Participant's reaction and expectation to prototypes
-  * participants generally had higher expectation when using digital prototypes, so a little bit less patient
+  * Participants generally had higher expectation when using digital prototypes, so a little bit less patient
   * 
   
 * Changes made from paper to digital prototype
-  * confirm from users that gps information will be collected 
+  * Confirm from users that gps information will be collected 
   * 
 
 -----------
