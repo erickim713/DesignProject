@@ -54,6 +54,9 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 * Wants the visualization of the exact path 
   * Have more frequent GPS readings and then connect-the-dots
 
+* It would be better to have consistent contents in the path and occasion tabs
+  * They were initially designed to have different contents, because the occasion tab will mostly consist of media recordings while the path tab will mostly consist of GPS recordings. Perhaps some kind of relationship could be suggested in our later prototypes.
+
 * Confusion about how the photos will be taken and gets added to the photo section
   * Photo syncing with album?
   * Alarm the user to take photos (every 1 hour? 2 hours? depending on user settings)
