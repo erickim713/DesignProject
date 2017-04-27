@@ -52,12 +52,13 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
   * Stop button should change to a resume button, in case the user accidentally clicked stop
   
 * Wants the visualization of the exact path 
+  * Have more frequent GPS readings and then connect-the-dots
 
 * Confusion about how the photos will be taken and gets added to the photo section
   * Photo syncing with album?
   * Alarm the user to take photos (every 1 hour? 2 hours? depending on user settings)
  
-* Asking for permission for the gps access as the starting page is not necessary. It should be shown when the user starts recording ofr the first time or when the user's setting to the permission is int "not allowed" state.
+* Asking for permission for the gps access as the starting page is not necessary. It should be shown when the user starts recording for the first time or when the user's setting to the permission is int "not allowed" state.
   
 -----------
 ### **Paper vs Digital**
