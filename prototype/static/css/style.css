@@ -1,0 +1,175 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*****************************************************/
+
+/* defaults */
+
+html body { width: 100%; height: 100%; padding: 0; margin: 0; display: block; }
+
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.floatL { float: left !important; }
+.floatR { float: right !important; }
+
+.disp-blk { display: block !important; }
+.disp-none { display: none !important; }
+.disp-inline { display: inline !important; }
+.opacity0 { opacity: 0 !important; }
+.opacity100 { opacity: 100 !important; }
+
+.mg10 { margin: 10px !important; }
+.mg20 { margin: 20px !important; }
+
+.pad10 { padding: 10px !important; }
+.pad20 { padding: 20px !important; }
+
+.mt5 { margin-top: 5px !important; }
+.mt10 { margin-top: 10px !important; }
+.mt20 { margin-top: 20px !important; }
+.mb5 { margin-bottom: 5px !important; }
+.mb10 { margin-bottom: 10px !important; }
+.mb20 { margin-bottom: 20px !important; }
+
+.bg-white { background-color: white !important; }
+.bg-black { background-color: black !important; }
+
+.brad5 { border-radius: 5px !important; }
+.brad10 { border-radius: 10px !important; }
+.brad20 { border-radius: 20px !important; }
+
+.container1250 { width: 1250px; position: relative; top: 0; left: 50%; margin-left: -625px; }
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.no-border-left { border-left: none !important; }
+.no-border-right { border-right: none !important; }
+.no-border-top { border-top: none !important; }
+.no-border-bottom { border-bottom: none !important; }
+
+.no-margin-left { margin-left: 0 !important; }
+.no-margin-right { margin-right: 0 !important; }
+.no-margin-top { margin-top: 0 !important; }
+.no-margin-bottom { margin-bottom: 0 !important; }
+
+.ta-left { text-align: left !important; }
+.ta-right { text-align: right !important; }
+.ta-center { text-align: center !important; }
+.ta-just { text-align: justify !important; }
+
+/*****************************************************/
+
+/* main page */
+
