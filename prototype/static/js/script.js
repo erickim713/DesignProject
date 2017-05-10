@@ -4,7 +4,6 @@ $(document).ready(function() {
 	});
 });
 
-
 // history page
 // image modal
 // Get the modal
@@ -29,3 +28,4 @@ span.onclick = function() {
 modal.onclick = function() {
   modal.style.display = "none";
 }
+
