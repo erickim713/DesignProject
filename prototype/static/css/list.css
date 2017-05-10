@@ -1,0 +1,84 @@
+/*css for list page*/
+
+.list_header{
+    font-size: 70px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.center-div
+{
+    margin: auto;
+    width: 600px; 
+    white-space: nowrap;
+}
+body {
+    background-color: #eee;
+    font-family: 'Open Sans', sans-serif;
+}
+.tableheader{
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.entry{
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+    font-size: 60px;
+}
+
+.header_entry{
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+    font-size: 60px;
+}
+
+.date{
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+    font-size: 60px;
+}
+
+.header_date{
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+    font-size: 60px;
+}
+
+.input{
+    text-align: left;
+}
+
+table{
+    
+    border-collapse:collapse;
+    width: 80%;
+    margin-left:auto; 
+    margin-right: auto;
+    margin-top: 40px;
+}
+tr{
+    padding: 20px;
+}
+
+td{
+    border-bottom: 1px solid #000080;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    padding: 5px;
+    border-bottom-style: solid;
+}
+
+
+th{
+    border-bottom: 2px solid black; 
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+    font-size: 60px;
+    border-bottom-style: solid;
+}
+
+
