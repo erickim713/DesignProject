@@ -185,13 +185,30 @@ nav#top_nav div.right { text-align: right; }
 /* main page */
 
 
-
 /*****************************************************/
 
 /* individual history page */
+
+div#date_nav {
+  width: 50vw;
+  height: 25vh;
+  display: inline-flex;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+}
+div#date_nav div.left, div#date_nav div.right { width:20vw; cursor: pointer;}
+div#date_nav div.text { width: 100%; overflow: hidden; text-align: center; font-size: 4vh; font-weight: bold;}
+div#date_nav div.left { text-align: left; }
+div#date_nav div.right { text-align: right; }
+div#date_nav div{
+  text-align: center;
+}
+
+
 #selected_date {
   text-align: center;
-  padding: 3%;
 }
 #path_or_photos{
 
@@ -217,4 +234,89 @@ nav#top_nav div.right { text-align: right; }
 }*/
 #list_of_activities th{
   text-align: center;
+}
+.location {
+
+}
+.bank {
+
+}
+.communication {
+
+}
+.home {
+  /*color :green;*/
+  background-color: rgb(186, 224, 188);
+}
+div#photos{
+  margin: 2%;
+}
+
+#photo_grid #imgwrapper{
+  height:250px;
+  overflow: hidden;
+  margin-bottom: 1%;
+}
+#photo_grid img{
+  object-fit: cover;
+}
+/*image modal*/
+.ind_history_img {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ind_history_img:hover {opacity: 0.7;}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+.modal-content{
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+.close {
+    position: absolute;
+    top: 1.04vw;
+    right: 2.43vw;
+    color: white !important;
+    font-size: 2.78vw !important;
+
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
