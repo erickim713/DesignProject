@@ -190,28 +190,36 @@ nav#top_nav div.right { text-align: right; }
 /* individual history page */
 
 div#date_nav {
-  width: 50vw;
-  height: 25vh;
+  width: 80%;
+  height: 15vh;
   display: inline-flex;
   margin: 0 auto;
   display: flex;
   align-items: center;
     justify-content: center;
 }
-div#date_nav div.left, div#date_nav div.right { width:20vw; cursor: pointer;}
-div#date_nav div.text { width: 100%; overflow: hidden; text-align: center; font-size: 4vh; font-weight: bold;}
+div#date_nav div.left, div#date_nav div.right { width:30vw; cursor: pointer;}
+div#date_nav div.text { width: 100%; overflow: hidden; text-align: center; font-size: 3vh; font-weight: bold;}
 div#date_nav div.left { text-align: left; }
 div#date_nav div.right { text-align: right; }
 div#date_nav div{
   text-align: center;
+  vertical-align: middle;
+}
+
+div#date_nav a {
+  font-size:5em;
+  color:black;
 }
 
 
 #selected_date {
   text-align: center;
+
 }
 #path_or_photos{
-
+  font-size: 4vw;
+  width: 100%;
 }
 #map_image{
   width:100%;
@@ -235,6 +243,18 @@ div#date_nav div{
 #list_of_activities th{
   text-align: center;
 }
+#list_of_activities td{
+  vertical-align: middle;
+}
+#list_of_activities td div{
+  height:5vh;
+}
+#list_of_activities {
+  font-size: 4vw;
+}
+#list_of_activities td.first_col{
+  width:10%;
+}
 .location {
 
 }
@@ -245,17 +265,23 @@ div#date_nav div{
 
 }
 .home {
-  /*color :green;*/
-  background-color: rgb(186, 224, 188);
+  color :rgb(40, 122, 60);
+  /*background-color: rgb(186, 224, 188);*/
 }
-div#photos{
-  margin: 2%;
+section#photo_grid{
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
 }
-
+section#photo_grid .container{
+  margin: 0;
+  width:98%;
+  padding: 0;
+}
 #photo_grid #imgwrapper{
-  height:250px;
-  overflow: hidden;
+  height:18vh;
   margin-bottom: 1%;
+  overflow: hidden;
 }
 #photo_grid img{
   object-fit: cover;
@@ -280,12 +306,15 @@ div#photos{
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    vertical-align: middle;
+    align-items: center;
 }
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
-    max-width: 700px;
+    width: 100%;
+    display:inline-block;
+    /*max-width: 700px;*/
 }
 .modal-content{
     -webkit-animation-name: zoom;

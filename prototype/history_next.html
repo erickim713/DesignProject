@@ -26,13 +26,13 @@
 
 		<div id="date_nav" class="container">
       <div class="floatL left">
-        <div class="glyphicon glyphicon-chevron-left"></div>
-        <a href="history.html">View Previous</a>
+        <a href="history.html" class="glyphicon glyphicon-chevron-left"></a>
+        <!-- <a class="view_text" href="history_prev.html">View Previous</a> -->
       </div>
       <div class="text" id="selected_date">May 5th, 2017</div>
       <div class="floatR right">
-        <a href="#">View Next</a>
-        <div class="glyphicon glyphicon-chevron-right"></div>
+        <!-- <a class="view_text" href="history_next.html">View Next</a> -->
+        <a href="#" class="glyphicon glyphicon-chevron-right"></a>
       </div>
 		</div>
 
@@ -64,9 +64,9 @@
                   <th>Note</th>
                 </tr>
               </thead>
-							<tbody>
+              <tbody>
                 <tr data-toggle="collapse" data-target="#1" class="accordion-toggle location">
-                  <td><div class="glyphicon glyphicon-flag"></div></td>
+                  <td class="first_col"><div class="glyphicon glyphicon-flag"></div></td>
                   <td>꼬꾸마시</td>
                   <td>22:14</td>
                   <td></td>
@@ -77,7 +77,7 @@
                   </td>
                 </tr>
                 <tr data-toggle="collapse" data-target="#2" class="accordion-toggle bank">
-                  <td><div class="glyphicon glyphicon-usd"></div></td>
+                  <td class="first_col"><div class="glyphicon glyphicon-usd"></div></td>
                   <td>꼬꾸마시</td>
                   <td>23:50</td>
                   <td>14000 won</td>
@@ -88,7 +88,7 @@
                   </td>
                 </tr>
                 <tr data-toggle="collapse" data-target="#3" class="accordion-toggle bank">
-                  <td><div class="glyphicon glyphicon-usd"></div></td>
+                  <td class="first_col"><div class="glyphicon glyphicon-usd"></div></td>
                   <td>CU 편의점 어은점</td>
                   <td>23:20</td>
                   <td>2400 won</td>
@@ -97,7 +97,7 @@
                   <td colspan="6" class="hiddenRow"><div class="accordian-body collapse" id="3"> Demo1 </div> </td>
                 </tr>
                 <tr data-toggle="collapse" data-target="#4" class="accordion-toggle communication">
-                  <td><div class="glyphicon glyphicon-earphone"></div></td>
+                  <td class="first_col"><div class="glyphicon glyphicon-earphone"></div></td>
                   <td>Call History</td>
                   <td>23:22</td>
                   <td>길동이</td>
@@ -106,7 +106,7 @@
                   <td colspan="6" class="hiddenRow"><div class="accordian-body collapse" id="4"> Demo1 </div> </td>
                 </tr>
                 <tr data-toggle="collapse" data-target="#5" class="accordion-toggle communication">
-                  <td><div class="glyphicon glyphicon-earphone"></div></td>
+                  <td class="first_col"><div class="glyphicon glyphicon-earphone"></div></td>
                   <td>Call History</td>
                   <td>23:25</td>
                   <td>길동이</td>
@@ -115,7 +115,7 @@
                   <td colspan="6" class="hiddenRow"><div class="accordian-body collapse" id="5"> Demo1 </div> </td>
                 </tr>
                 <tr data-toggle="collapse" data-target="#6" class="accordion-toggle communication">
-                  <td><div class="glyphicon glyphicon-earphone"></div></td>
+                  <td class="first_col"><div class="glyphicon glyphicon-earphone"></div></td>
                   <td>Call History</td>
                   <td>23:35</td>
                   <td>길동이</td>
@@ -124,7 +124,7 @@
                   <td colspan="6" class="hiddenRow"><div class="accordian-body collapse" id="6"> Demo1 </div> </td>
                 </tr>
                 <tr data-toggle="collapse" data-target="#7" class="accordion-toggle location">
-                  <td><div class="glyphicon glyphicon-flag"></div></td>
+                  <td class="first_col"><div class="glyphicon glyphicon-flag"></div></td>
                   <td>어은 노래방</td>
                   <td>00:30</td>
                   <td></td>
@@ -133,7 +133,7 @@
                   <td colspan="6" class="hiddenRow"><div class="accordian-body collapse" id="7"> Demo1 </div> </td>
                 </tr>
                 <tr data-toggle="collapse" data-target="#8" class="accordion-toggle bank">
-                  <td><div class="glyphicon glyphicon-usd"></div></td>
+                  <td class="first_col"><div class="glyphicon glyphicon-usd"></div></td>
                   <td>카카오 택시</td>
                   <td>04:15</td>
                   <td>3700 won</td>
@@ -142,7 +142,7 @@
                   <td colspan="6" class="hiddenRow"><div class="accordian-body collapse" id="8"> Demo1 </div> </td>
                 </tr>
                 <tr data-toggle="collapse" data-target="#9" class="accordion-toggle home">
-                  <td><div class="glyphicon glyphicon-home"></div></td>
+                  <td class="first_col"><div class="glyphicon glyphicon-home"></div></td>
                   <td>집</td>
                   <td>04:30</td>
                   <td></td>
@@ -162,15 +162,15 @@
         <section id="photo_grid">
           <div class="container">
             <div class="row">
-              <div id="imgwrapper" class="col-4 col-md-3"><img class="ind_history_img" src="static/image/drinking1.jpg" alt=""></div>
+              <div id="imgwrapper" class="col-xs-4 col-4 col-md-3"><img class="ind_history_img" src="static/image/drinking1.jpg" alt=""></div>
 
-              <div id="imgwrapper" class="col-4 col-md-3"><img class="ind_history_img" src="static/image/drinking2.jpg" alt=""></div>
+              <div id="imgwrapper" class="col-xs-4 col-4 col-md-3"><img class="ind_history_img" src="static/image/drinking2.jpg" alt=""></div>
 
-              <div id="imgwrapper" class="col-4 col-md-3"><img class="ind_history_img" src="static/image/drinking3.jpg" alt=""></div>
+              <div id="imgwrapper" class="col-xs-4 col-4 col-md-3"><img class="ind_history_img" src="static/image/drinking3.jpg" alt=""></div>
 
-              <div id="imgwrapper" class="col-4 col-md-3"><img class="ind_history_img" src="static/image/drinking4.jpg" alt=""></div>
+              <div id="imgwrapper" class="col-xs-4 col-4 col-md-3"><img class="ind_history_img" src="static/image/drinking4.jpg" alt=""></div>
 
-              <div id="imgwrapper" class="col-4 col-md-3"><img class="ind_history_img" src="static/image/drinking4.jpg" alt=""></div>
+              <div id="imgwrapper" class="col-xs-4 col-4 col-md-3"><img class="ind_history_img" src="static/image/drinking4.jpg" alt=""></div>
 
 
             </div>
