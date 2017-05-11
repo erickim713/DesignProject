@@ -18,6 +18,24 @@
     $("#datepicker").datepicker({
   		showOtherMonths: false,
   		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+        beforeShowDay: function(date) {
+      return [true, $.datepicker.formatDate('yy-mm-dd', date)];
+        },
+         onSelect: function(date, inst) {
+             if(date == "05/02/2017"){
+                 console.log(date);
+        window.location = 'history.html';
+             }
+             if(date == "04/27/2017"){
+                 console.log(date);
+        window.location = 'history_prev.html';
+             }
+             if(date == "05/05/2017"){
+                 console.log(date);
+        window.location = 'history_next.html';
+             }
+        console.log(date);
+    },
   	});
   });
   </script>

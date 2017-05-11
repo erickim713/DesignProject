@@ -8,4 +8,6 @@ $(document).ready(function() {
 	$('#menu_nav .background').click(function() {
 		$('#menu_nav').toggleClass('opened');
 	});
+    $('.ui-datepicker-current-day').click(function(){console.log($('#datepicker').val());
+    });
 });
