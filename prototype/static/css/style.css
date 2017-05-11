@@ -178,6 +178,13 @@ nav#top_nav div.text { width: 60vw; height: 7.74vh; position: absolute; left: 20
 nav#top_nav div.left, nav#top_nav div.right { width: 16vw; height: 7.74vh; }
 nav#top_nav div.left { text-align: left; }
 nav#top_nav div.right { text-align: right; }
+nav#menu_nav { position: fixed; top: 0; right: -100vw; display: block; opacity: 0; width: 100vw; height: 100vh; transition: .3s; }
+nav#menu_nav.opened { right: 0; display: block; opacity: 1;}
+nav#menu_nav div.background { position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; cursor: pointer; background-color: rgba(0,0,0,.3); z-index: 1; }
+nav#menu_nav ul#menu { position: absolute; top: 0; right: 0; width: 40vw; height: 100vh; background-color: white; z-index: 2; box-shadow: 0 0 10vw -2vw black; }
+nav#menu_nav ul#menu a { display: block; text-decoration: none; color: #231f20; }
+nav#menu_nav ul#menu li { width: 30vw; padding: 5vw; border-bottom: .2vw solid #ddd; font-size: 3vh; }
+
 
 
 /*****************************************************/
