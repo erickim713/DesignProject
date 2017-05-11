@@ -9,7 +9,40 @@
 		<!--<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">--> <!-- Lato font from Google Font -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet"> <!-- Lato font extended, use regular version(upper one) if it's too slow -->
 		<link rel="stylesheet" href="./static/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="./static/css/calendar.css">
 		<link rel="stylesheet" href="./static/css/style.css" />
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$("#datepicker").datepicker({
+		  		showOtherMonths: false,
+		  		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+		        beforeShowDay: function(date) {
+		      return [true, $.datepicker.formatDate('yy-mm-dd', date)];
+		        },
+		         onSelect: function(date, inst) {
+		             if(date == "05/02/2017"){
+		                 console.log(date);
+		        window.location = 'history.html';
+		             }
+		             if(date == "04/27/2017"){
+		                 console.log(date);
+		        window.location = 'history_prev.html';
+		             }
+		             if(date == "05/05/2017"){
+		                 console.log(date);
+		        window.location = 'history_next.html';
+		             }
+		        console.log(date);
+		    },
+		  	});
+		  });
+		  $(document).ready(function() {
+		    $dates = $('td.2017-04-27, td.2017-05-02, td.2017-05-05');
+		    $dates.addClass('history_day');
+		    $('.ui-datepicker-header').remove();
+		  });
+		</script>
 	</head>
 	<body id="index">
 		<nav id="top_nav">
@@ -21,7 +54,24 @@
         	<img id="map_image" src="static/image/placeholder_map.png" alt="">
 			<div class="text">Your lastest recording on May 2nd, 2017</div>
     	</a>
-    	<a class="btnStartRecording" href="recording.html">Start Recording</a>
+    	<a class="btnStartRecording" href="recording.html">Recording</a>
+		<div class="calendar">
+		<div class="container">
+		  <div id="datepicker"></div>
+		</div>
+		</div>
+		<a class="carousel" href="history_prev.html" style="margin-top: 5vh;">
+		  <img id="map_image" src="static/image/placeholder_map.png" alt="">
+		<div class="text">April 27th, 2017</div>
+		</a>
+		<a class="carousel" href="history.html">
+		  <img id="map_image" src="static/image/placeholder_map.png" alt="">
+		<div class="text">May 2nd, 2017</div>
+		</a>
+		<a class="carousel" href="history_next.html">
+		  <img id="map_image" src="static/image/placeholder_map.png" alt="">
+		<div class="text">May 5th, 2017</div>
+		</a>
     	<nav id="menu_nav">
     		<div class="background"></div>
 	    	<ul id="menu">
