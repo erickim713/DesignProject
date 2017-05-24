@@ -59,15 +59,8 @@ Sunmin Son:
 
 #### Feedback
 
-* TA complimented us that our prototype is simple and easy to use; it's very intuitive and learnable.
-* However, TA also pointed out that our application lacked visual feedback (visual progress) in some of the tasks we wanted on the application.
-* In addition, recording is too limited in what it can do. It might be better to include possibility of configuring the recording task setting.
-* Fellow peers mentioned that we should add path indicators to fully support the task of informing the user where he was during the nights the user went out to drink.
+* 
 
 #### Course of Action
 
-* Add progress bar or some form of visual representation of recording process so that users can know when it's going to end and how much has been recorded (or if it's recording at all).
-* We can also add configuration page so that users can configure the following options:
-    * the end time of the recording session
-    * notification toggle for alarming the user to take picture for capturing the occasion
-* add red line indicator to mark the travelled path on the map so that users can see the path history.
+* 
