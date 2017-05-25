@@ -6,7 +6,9 @@
   <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- iOS fullscreen webapp -->
   <meta name="mobile-web-app-capable" content="yes" /> <!-- Android Chrome fullscreen webapp -->
   <script src="./static/js/jquery-3.2.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
   <script src="./static/js/script.js"></script>
+  <script src="./static/js/calendar.js"></script>
   <!--<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">--> <!-- Lato font from Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet"> <!-- Lato font extended, use regular version(upper one) if it's too slow -->
   <link rel="stylesheet" href="./static/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -56,36 +58,50 @@
   </script>
 </head>
 <body>
+<!-- just doing some organization with calendar.html -->
+<!-- navigation section -->
     <nav id="top_nav">
         <div class="floatL btnBack left"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
         <div class="text">Calendar</div>
         <div class="floatR right"><i class="fa fa-bars" aria-hidden="true"></i></div>
     </nav>
+<!-- this must be the top mode selector -->
     <div class="tab_selector clearfix">
-      <div class="tab selected floatL" data-for="tab_1">Calendar</div>
-      <div class="tab floatL no-border-right" data-for="tab_2">List</div>
+      <div class="tab selected floatL" data-for="tab_1">List</div>
+      <div class="tab floatL no-border-right" data-for="tab_2">Calendar</div>
     </div>
-    <section class="page_tab tab_1">
+<!-- list section -->
+    <section class="page_tab tab_1 ">
+      <div class="most_recent" id="most_recent">
+        <div class="most_recent_text" id="most_recent_text">Most Recent</div>
+        <!-- there should be most recent entry here -->
+      </div>
+      
+      <div class ="entry_table" id="entry_table">
+        <table class='entry'>
+          <thead class='list_entry'>
+            <tr>
+              <th class="date">Date</th>
+              <th class="descriptor">Descriptor</th>
+            </tr>
+          </thead>
+          <tbody class="list_entry">      
+          </tbody>
+        </table>
+        <!-- list of the rest of the entries -->
+        <!-- in list format where it should be -->
+      </div>
+     
+    </section>
+<!-- calendar section -->
+    <section class="page_tab tab_2 disp-none">
       <div class="calendar">
           <div class="container">
               <div id="datepicker"></div>
           </div>
       </div>
     </section>
-    <section class="page_tab tab_2 disp-none">
-      <a class="carousel" href="history_prev.html">
-          <img id="map_image" src="static/image/placeholder_map.png" alt="">
-      <div class="text">April 27th, 2017</div>
-      </a>
-      <a class="carousel" href="history.html">
-          <img id="map_image" src="static/image/placeholder_map.png" alt="">
-      <div class="text">May 2nd, 2017</div>
-      </a>
-      <a class="carousel" href="history_next.html">
-          <img id="map_image" src="static/image/placeholder_map.png" alt="">
-      <div class="text">May 5th, 2017</div>
-      </a>
-    </section>
+
     <nav id="menu_nav">
         <div class="background"></div>
         <ul id="menu">
@@ -96,3 +112,15 @@
       </nav>
 </body>
 </html>
+<!--  <a class="carousel" href="history_prev.html">
+          <img id="map_image" src="static/image/placeholder_map.png" alt="">
+      <div class="text">April 27th, 2017</div>
+      </a>
+      <a class="carousel" href="history.html">
+          <img id="map_image" src="static/image/placeholder_map.png" alt="">
+      <div class="text">May 2nd, 2017</div>
+      </a>
+      <a class="carousel" href="history_next.html">
+          <img id="map_image" src="static/image/placeholder_map.png" alt="">
+      <div class="text">May 5th, 2017</div>
+      </a> -->
