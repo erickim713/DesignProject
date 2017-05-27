@@ -8,6 +8,7 @@ needed info in my database:
 	most recent day should be more detailed
 		-meaning it should have map of where the person has been to last night.
 		*/
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var datesRef;
 var most_recent_entry;
 $(document).ready(function(){
@@ -68,14 +69,14 @@ function display_rest(){
 				//when the current month is different from the entry month
 				cur_month = entry_data.month;
 				//add a month bar
-				var month_entry = "<tr class ='month_bar'><td colspan='2'>"+ cur_month+"</td></tr>";
+				var month_entry = "<tr class ='month_bar'><td colspan='2'>"+ months[cur_month-1]+"</td></tr>";
 				$('tbody').prepend(month_entry);
 				//then add an entry
-				var just_entry = "<tr class ='normal_entry'><td class='date'>"+entry_data.month + entry_data.day + "</td>" + "<td class='descriptor'>" + entry_data.title + "</td></tr>"
+				var just_entry = "<tr class ='normal_entry'><td class='date'>"+months[entry_data.month-1]+ " " + entry_data.day + "</td>" + "<td class='descriptor'>" + entry_data.title + "</td></tr>"
 				$('tbody tr:nth-child(1)').after(just_entry);
 			}
 			else{
-				var just_entry = "<tr class ='normal_entry'><td class='date'>"+entry_data.month + entry_data.day + "</td>" + "<td class='descriptor'>" + entry_data.title + "</td></tr>"
+				var just_entry = "<tr class ='normal_entry'><td class='date'>"+months[entry_data.month-1] +" " + entry_data.day + "</td>" + "<td class='descriptor'>" + entry_data.title + "</td></tr>"
 				$('tbody tr:nth-child(1)').after(just_entry);
 			}
 		})
