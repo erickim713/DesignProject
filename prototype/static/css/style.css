@@ -246,9 +246,9 @@ div#date_nav a {
 
 }
 #path_or_photos{
-  font-size: 4vw;
-  height: 7.74vw;
-  line-height: 7.74vw;
+  font-size: 2vh;
+  height: 4vh;
+  line-height: 4vh;
   width: 100%;
 }
 #path_or_photos ul li a {color : black;}
@@ -428,7 +428,7 @@ img#drinking {
 #container-vertical
 {
   width: 100vw;
-  height: 31.7vh;
+  height: 32.26vh;
   overflow-x: hidden;
   overflow-y: scroll;
 
@@ -457,7 +457,7 @@ img#drinking {
 {
   text-align: center;
   width: 100vw;
-  height: 12.35vh;
+  height: 12.63vh;
   background-color: #ddd;
 }
 
@@ -470,3 +470,7 @@ img#drinking {
 .table-header div.name { width: 35vw; height: 6vh; font-size: 3.5vw; line-height: 6vh; float: left; }
 .table-header div.note { width: 30vw; height: 6vh; font-size: 3.5vw; line-height: 6vh; float: left; }
 
+
+div#image_modal { width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; z-index: 100; }
+div#image_modal div.background { position: absolute; width: 100vw; height: 100vh; z-index: 1; background-color: black; opacity: .7; }
+div#image_modal img { width: 100vw; position: absolute; top: 50vh; left: 50vw; z-index: 10; transform: translate(-50%, -50%); }

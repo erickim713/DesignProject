@@ -95,19 +95,7 @@
 
               <div class="imgwrapper floatL" data-img-src="static/image/drinking4.jpg" style="background: url(static/image/drinking4.jpg) 0 0 no-repeat transparent; background-size: cover;"></div>
             </div>
-            <style>
-            div#image_modal { width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; z-index: 100; }
-            div#image_modal div.background { position: absolute; width: 100vw; height: 100vh; z-index: 1; background-color: black; opacity: .7; }
-            div#image_modal img { width: 100vw; position: absolute; top: 50vh; left: 50vw; z-index: 10; transform: translate(-50%, -50%); }
-            </style>
             <script>
-            $('div#image_modal div.background').click(function() {
-              $('div#image_modal').addClass('disp-none');
-            }); 
-            $('#photo_grid div.imgwrapper').click(function() {
-              $('div#image_modal').removeClass('disp-none');
-              $('div#image_modal img').attr('src', $(this).attr('data-img-src'));
-            });
             </script>
           </div>
         </section>
