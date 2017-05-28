@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* Always set the map height explicitly to define the size of the div
+            * element that contains the map. */
+            #map {
+                width: 100vh;
+                height: 100vh;
+                position: absolute;
+                z-index: 10;
+            }
+            /* Optional: Makes the sample page fill the window. */
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            div.info {
+                width: 100vw;
+                padding-left: 100vh;
+                height: 100vh;
+                box-sizing: border-box;
+                position: relative;
+            }
+            div.info ul { width: 100%; height: 70vh; box-sizing: border-box; overflow: scroll; }
+            div.info li { width: 100%; box-sizing: border-box; padding: 10px; font-size: 14px; line-height: 21px; border-bottom: 1px solid #ddd; text-align: center; }
+            div.info li div.lat { width: 30%; box-sizing: border-box; border-right: 1px solid #ddd; }
+            div.info li div.lng { width: 30%; box-sizing: border-box; border-right: 1px solid #ddd; }
+            div.info li div.time { width: 40%; }
+            div.info li.head { font-size: 16px; font-weight: bold; }
+            div.info div.time input { width: 60%; height: 15px; line-height: 15px; font-size: 14px; border: 1px solid #ddd; border-radius: 5px; padding: 3px 10px; outline: none; text-align: right;}
+            div.info textarea { box-sizing: border-box; border: 0px none; border-top: 1px dotted #bbb; width: 100%; height: 30vh; padding: 20px; outline: none; }
+        </style>
+        <link rel="stylesheet" href="./static/css/style.css" />
+        <script src="./static/js/jquery-3.2.1.min.js"></script>
+        <script>
+        var path = null;
+        var map = null;
+        function redraw() {
+            if(path != null) path.setMap(null);
+            var coords = [];
+            $('div.info li.entry').each(function() {
+                coords.push({
+                    lat: parseFloat($(this).find('div.lat').text()),
+                    lng: parseFloat($(this).find('div.lng').text()),
+                    time: $(this).find('input').val().trim() == '' ? null : $(this).find('input').val().trim()
+                });
+            });
+            path = new google.maps.Polyline({
+                path: coords,
+                geodesic: true,
+                strokeColor: "#FF0000",
+                strokeOpacity: 1,
+                strokeWeight: 2
+            })
+            path.setMap(map);
+            $('textarea').text(JSON.stringify(coords));
+        }
+        function initMap() {
+            var kaist = {lat: 36.3693921, lng: 127.3618309};
+            map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 17,
+                center: kaist
+            });
+            map.addListener('click', function(event) {
+                $new_entry = $('.li_template').clone();
+                $new_entry.find('div.lat').text(event.latLng.lat);
+                $new_entry.find('div.lng').text(event.latLng.lng);
+                $new_entry.find('input').change(function() {
+                    redraw();
+                });
+                $new_entry.removeClass('li_template').removeClass('disp-none').addClass('entry');
+                $new_entry.appendTo('div.info ul');
+                redraw();
+            });
+        }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEkPuOXQ0s3LtSrBa9cd46Vc0SM8oBN4M&callback=initMap"></script>
+    </head>
+    <body>
+        <div class="clearfix">
+            <div id="map" class="floatL"></div>
+            <div class="info floatL">
+                <ul>
+                    <li class="head clearfix">
+                        <div class="lat floatL">Latitude</div>
+                        <div class="lng floatL">Longitude</div>
+                        <div class="time floatL">Time</div>
+                    </li>
+                    <li class="li_template clearfix disp-none">
+                        <div class="lat floatL"></div>
+                        <div class="lng floatL"></div>
+                        <div class="time floatL"><input type="text" class="time" placeholder="HH:MM" /></div>
+                    </li>
+                </ul>
+                <textarea readonly></textarea>
+            </div>
+        </div>
+    </body>
+</html>
