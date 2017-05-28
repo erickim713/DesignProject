@@ -383,3 +383,71 @@ img#drinking {
     text-decoration: none;
     cursor: pointer;
 }
+
+
+/* SCROLL */
+
+#container-horizontal
+{
+  width: 100vw;
+  height: 10vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: relative;
+}
+.ICH
+{
+  height: 10vh;
+}
+.viewport-h1
+{
+  float: left;
+  font-size: 30px;
+  text-align: center;
+  line-height: 10vh;
+  width: 10vw;
+  height: 10vh;
+
+}
+
+.viewport-hpadding
+{
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  width: 45vw;
+  height: 10vh;
+}
+
+
+
+
+#container-vertical
+{
+  width: 100vw;
+  height: 50vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+.ICV
+{
+  width: 100vw;
+}
+.viewport-v1
+{
+  font-size: 50px;
+  border-bottom: groove;
+  text-align: center;
+  line-height: 10vh;
+  width: 100vw;
+  height: 10vh;
+}
+
+.viewport-vpadding
+{
+  text-align: center;
+  width: 100vw;
+  height: 20vh;
+  border-bottom: groove;
+}
