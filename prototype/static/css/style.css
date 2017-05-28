@@ -246,6 +246,8 @@ div#date_nav a {
 }
 #path_or_photos{
   font-size: 4vw;
+  height: 7.74vw;
+  line-height: 7.74vw;
   width: 100%;
 }
 #path_or_photos ul li a {color : black;}
@@ -390,23 +392,24 @@ img#drinking {
 #container-horizontal
 {
   width: 100vw;
-  height: 10vh;
+  height: 5vh;
   overflow-x: scroll;
   overflow-y: hidden;
   position: relative;
+  box-shadow: inset 0px -10px 20px -20px black;
 }
 .ICH
 {
-  height: 10vh;
+  height: 5vh;
 }
 .viewport-h1
 {
   float: left;
   font-size: 30px;
   text-align: center;
-  line-height: 10vh;
-  width: 10vw;
-  height: 10vh;
+  line-height: 5vh;
+  width: 20vw;
+  height: 5vh;
 
 }
 
@@ -415,7 +418,7 @@ img#drinking {
   float: left;
   text-align: center;
   vertical-align: middle;
-  width: 45vw;
+  width: 40vw;
   height: 10vh;
 }
 
@@ -425,7 +428,7 @@ img#drinking {
 #container-vertical
 {
   width: 100vw;
-  height: 50vh;
+  height: 29.52vh;
   overflow-x: hidden;
   overflow-y: scroll;
 
@@ -451,3 +454,5 @@ img#drinking {
   height: 20vh;
   border-bottom: groove;
 }
+
+#path_map { width: 100vw; height: 30vh; }
