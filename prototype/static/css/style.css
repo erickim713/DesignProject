@@ -463,7 +463,7 @@ img#drinking {
 
 #path_map { width: 100vw; height: 30vh; }
 
-#list_of_activities div.table-header { width: 100vw; height: 6vh; line-height: 6vh; text-align: center; border-bottom: 1px solid #ddd;}
+#list_of_activities div.table-header { width: 100vw; height: 6vh; line-height: 6vh; text-align: center; border-bottom: 1px solid #ddd; color: #e09400; font-weight: bold;}
 
 .table-header div.icon { width: 15vw; height: 6vh; font-size: 3.5vw; line-height: 6vh; float: left; }
 .table-header div.time { width: 20vw; height: 6vh; font-size: 3.5vw; line-height: 6vh; float: left; }
