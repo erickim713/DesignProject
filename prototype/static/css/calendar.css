@@ -1,5 +1,5 @@
 .calendar{
-    padding-top: 40px;
+
 }
 
 .ui-datepicker-calendar{
@@ -28,7 +28,10 @@
 }
 
 /*styling the header section*/
-
+.ui-datepicker-header {
+  display: none;
+}
+/*
 .ui-datepicker-header {
   background:black;
   color: #e0e0e0;
@@ -43,12 +46,14 @@
   border-color: #111;
   height: 5vh;
   font-size: 2.5vh;
-  line-height: 5vh; 
+  line-height: 5vh;
 }
+
 
 .ui-datepicker-title {
   text-align: center;
 }
+
 
 .ui-datepicker-prev, .ui-datepicker-next {
   display: inline-block;
@@ -70,6 +75,7 @@
   float: right;
   background-position: center 0px;
 }
+*/
 .ui-datepicker thead {
   background-color: #f7f7f7;
   background-image: -moz-linear-gradient(top,  #f7f7f7 0%, #f1f1f1 100%);
@@ -110,14 +116,14 @@
   background: none;
   background-color: #aaa;
   font-size: 2vh; line-height: 5vh; height: 5vh;
-  color: white; 
+  color: white;
 }
 
 .ui-datepicker tbody td.history_day a.ui-state-default {
   background: none;
   background-color: #e09400;
   font-size: 2vh; line-height: 5vh; height: 5vh;
-  color: white; 
+  color: white;
 }
 
 .ui-datepicker tbody tr {

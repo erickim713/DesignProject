@@ -105,7 +105,8 @@ input, select {
 /* defaults */
 
 html body { width: 100%; height: 100%; padding: 0; margin: 0; display: block; font-family: 'Lato', sans-serif; }
-
+* {  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -moz-tap-highlight-color: rgba(0, 0, 0, 0); user-select: none; }
 .clearfix:after {
   content:"";
   display:table;
@@ -171,7 +172,8 @@ html body { width: 100%; height: 100%; padding: 0; margin: 0; display: block; fo
 
 /* universal */
 
-nav#top_nav { border-bottom: 1px solid #aaa; height: 7.74vh; font-size: 2.98vh; line-height: 7.74vh; padding: 0 4vw; font-weight: bold; color: white; width: 92vw; box-sizing: content-box; background-color : #ca5b14; position: fixed; z-index: 100;}
+nav#top_nav { height: 7.74vh; font-size: 2.98vh; line-height: 7.74vh; padding: 0 4vw; font-weight: bold; color: white; width: 92vw; box-sizing: content-box; background-color : #ca5b14;position: fixed; z-index: 100;}
+
 nav#top_nav div.text { width: 60vw; height: 7.74vh; position: absolute; left: 20vw; top: 0; overflow: hidden; text-align: center; }
 nav#top_nav div.left, nav#top_nav div.right { width: 16vw; height: 7.74vh; }
 nav#top_nav div.left { text-align: left; }
@@ -193,9 +195,10 @@ div.outer_container { padding-top: 7.74vh; }
 
 /* main page */
 
-a.carousel { display: block; cursor: pointer; position: relative; width: 100%; margin-bottom: 2vh; height: 35vh;}
+a.carousel { display: block; cursor: pointer; position: relative; width: 100%; margin-bottom: 2vh;}
+div.slideshow a.carousel { height : 35vh; }
 a.carousel div.text { width: 100%; height:7vh; text-align: right; line-height: 3vh; padding: 2vh 2vh; box-sizing: border-box; background: rgba(0, 0, 0, .3); position: absolute; bottom: 0; right: 0; color: white; font-size: 2.7vh; }
-a.btnStartRecording { display: block; width: 90vw; height: 10vh; text-align: center; line-height: 10vh; background-color: #e09400; font-size: 3vh; margin: 5vw; border-radius: 2vw; color: white; font-weight: bold; text-decoration: none; cursor: pointer; }
+a.btnStartRecording { display: block; width: 90vw; height: 10vh; text-align: center; line-height: 10vh; background-color: #e09400; font-size: 3vh; margin: 5vw; border-radius: 2vw; color: white; font-weight: bold; text-decoration: none; cursor: pointer; margin-top : 8vw; margin-bottom: 8vw; }
 .fa-calendar{ color : #ca5b14;}
 .fa-home{ color : #ca5b14;}
 .fa-camera{ color : #ca5b14;}
@@ -205,6 +208,9 @@ div.slideshow { width :100%; height : 35vh;}
 .mySlides_img { width : 100%; object-fit : contain;}
 
 
+div.container_cal { margin-bottom: 5vh; }
+div.calendar div.calendar_title { height :3vh; text-align : center; margin-bottom: 1.8vh;}
+div.calendar div.calendar_title h3 { font-size: 3vh; font-weight: bold; }
 /*****************************************************/
 
 /* recording page */
@@ -250,7 +256,9 @@ div#date_nav a {
 
 }
 #path_or_photos{
-  font-size: 4vw;
+  font-size: 2vh;
+  height: 4vh;
+  line-height: 4vh;
   width: 100%;
 }
 
@@ -260,9 +268,6 @@ div#date_nav a {
 #path_or_photos ul li.active a{ background-color : #e09400; color : white; }
 
 #list_of_activities{
-  padding-top: 5%;
-  padding-bottom: 5%;
-  text-align: center;
 }
 
 .hiddenRow {
@@ -314,11 +319,13 @@ section#photo_grid .container{
   width:98%;
   padding: 0;
 }
-#photo_grid #imgwrapper{
-  height:18vh;
-  margin-bottom: 1%;
+#photo_grid .imgwrapper{
+  height:32vw;
+  width: 32vw;
+  margin: 0 2vw 2vw 0;
   overflow: hidden;
 }
+#photo_grid .imgwrapper:nth-child(3n) { margin-right: 0; }
 #photo_grid img{
   object-fit: cover;
 }
@@ -401,6 +408,9 @@ div.carousel_container {  height : 35vh; display:none;width :100%; position:rela
    object-fit : contain;
 }
 
+div#calendar p#prev_month { font-size: 2vh; }
+div#calendar p#next_month { font-size: 2vh; }
+
 
 
 /*****************************************************/
@@ -411,23 +421,24 @@ div.carousel_container {  height : 35vh; display:none;width :100%; position:rela
 #container-horizontal
 {
   width: 100vw;
-  height: 10vh;
+  height: 5vh;
   overflow-x: scroll;
   overflow-y: hidden;
   position: relative;
+  box-shadow: inset 0px -10px 20px -20px black;
 }
 .ICH
 {
-  height: 10vh;
+  height: 5vh;
 }
 .viewport-h1
 {
   float: left;
   font-size: 30px;
   text-align: center;
-  line-height: 10vh;
-  width: 10vw;
-  height: 10vh;
+  line-height: 5vh;
+  width: 20vw;
+  height: 5vh;
 
 }
 
@@ -436,7 +447,7 @@ div.carousel_container {  height : 35vh; display:none;width :100%; position:rela
   float: left;
   text-align: center;
   vertical-align: middle;
-  width: 45vw;
+  width: 40vw;
   height: 10vh;
 }
 
@@ -446,7 +457,7 @@ div.carousel_container {  height : 35vh; display:none;width :100%; position:rela
 #container-vertical
 {
   width: 100vw;
-  height: 50vh;
+  height: 32.26vh;
   overflow-x: hidden;
   overflow-y: scroll;
 
@@ -458,17 +469,37 @@ div.carousel_container {  height : 35vh; display:none;width :100%; position:rela
 .viewport-v1
 {
   font-size: 50px;
-  border-bottom: groove;
   text-align: center;
-  line-height: 10vh;
+  line-height: 7vh;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ddd;
   width: 100vw;
-  height: 10vh;
+  height: 7vh;
 }
+
+.viewport-v1 div.icon { width: 15vw; height: 7vh; font-size: 5.5vw; line-height: 7vh; float: left; }
+.viewport-v1 div.time { width: 20vw; height: 7vh; font-size: 3.5vw; line-height: 7vh; float: left; }
+.viewport-v1 div.name { width: 35vw; height: 7vh; font-size: 3.5vw; line-height: 7vh; float: left; }
+.viewport-v1 div.note { width: 30vw; height: 7vh; font-size: 3.5vw; line-height: 7vh; float: left; }
 
 .viewport-vpadding
 {
   text-align: center;
   width: 100vw;
-  height: 20vh;
-  border-bottom: groove;
+  height: 12.63vh;
+  background-color: #ddd;
 }
+
+#path_map { width: 100vw; height: 30vh; }
+
+#list_of_activities div.table-header { width: 100vw; height: 6vh; line-height: 6vh; text-align: center; border-bottom: 1px solid #ddd; color: #e09400; font-weight: bold;}
+
+.table-header div.icon { width: 15vw; height: 6vh; font-size: 3.5vw; line-height: 6vh; float: left; }
+.table-header div.time { width: 20vw; height: 6vh; font-size: 3.5vw; line-height: 6vh; float: left; }
+.table-header div.name { width: 35vw; height: 6vh; font-size: 3.5vw; line-height: 6vh; float: left; }
+.table-header div.note { width: 30vw; height: 6vh; font-size: 3.5vw; line-height: 6vh; float: left; }
+
+
+div#image_modal { width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; z-index: 100; }
+div#image_modal div.background { position: absolute; width: 100vw; height: 100vh; z-index: 1; background-color: black; opacity: .7; }
+div#image_modal img { width: 100vw; position: absolute; top: 50vh; left: 50vw; z-index: 10; transform: translate(-50%, -50%); }

@@ -2,8 +2,8 @@
 /*things needed for the database entry for calendar?
 when the user presses record all i have to show is what day he or she drank
 
-so... 
-needed info in my database: 
+so...
+needed info in my database:
 	dates.
 	most recent day should be more detailed
 		-meaning it should have map of where the person has been to last night.
@@ -80,15 +80,15 @@ function display_rest(){
 				$('tbody tr:nth-child(1)').after(just_entry);
 			}
 		})
-	})	
+	})
 
 }
 function identify_most_recent(){
 	//most recent one should be at the bottom. I think...
 	var most_recent = {
-		day: 1, 
+		day: 1,
 		month: 1,
-		year: 0 
+		year: 0
 	};
 	datesRef.once("value", function(snapshot){
 		snapshot.forEach(function(childSnapshot){
@@ -122,7 +122,7 @@ function identify_most_recent(){
 }
 
 function display_most_recent(){
-	//for most recent stuff i need picture of the map and stuff.. 
+	//for most recent stuff i need picture of the map and stuff..
 	//let's say this is where i get the picture of the most recent picture
 	var fragment = "<a class='carousel' href='history_next.html'><img id='map_image' src='static/image/placeholder_map.png' alt=''><div class='text'>May 5th, 2017</div></a>"
 	$(".most_recent").append($(fragment));
@@ -130,4 +130,3 @@ function display_most_recent(){
 
 
 
-  

@@ -93,46 +93,51 @@
     <!-- list section -->
       <div class="tab-content">
         <div id="list" class="tab-pane fade in active">
-          <section class="page_tab tab_1 ">
-
+          <section id="list_of_activities">
   <!--
             <div class="most_recent" id="most_recent">
 
             </div>
   -->
-            <div class="carousel_container">
-              <a class="carousel" href="history_prev.html">
-                <img id="map_image" src="static/image/placeholder_map.png" alt="">
-                <div class="text">April 27th, 2017</div>
-              </a>
-            </div>
-            <div class="carousel_container">
-              <a class="carousel" href="history.html">
-                <img id="map_image" src="static/image/placeholder_map.png" alt="">
-                <div class="text">May 2nd, 2017</div>
-                </a>
-            </div>
-            <div class="carousel_container">
-              <a class="carousel" href="history_next.html">
-                <img id="map_image" src="static/image/placeholder_map.png" alt="">
-                <div class="text">May 5th, 2017</div>
-             </a>
-            </div>
+            <a class="carousel" href="history_next.html">
+              <img id="map_image" src="static/image/may5.png" alt="">
+            <div class="text">May 5th, 2017</div>
+            </a>
+            <a class="carousel" href="history.html">
+              <img id="map_image" src="static/image/may2.png" alt="">
+            <div class="text">May 2nd, 2017</div>
+            </a>
+            <a class="carousel" href="history_prev.html">
+              <img id="map_image" src="static/image/april27.png" alt="">
+            <div class="text">April 27th, 2017</div>
+            </a>
 
           </section>
         </div>
 
-
           <div id="calendar" class= "tab-pane fade">
       <!-- calendar section -->
-            <section class="page_tab tab_2 disp-none">
+            <section id="photo_grid">
               <div class="calendar">
-                  <div class="container">
-                      <div id="datepicker"></div>
+                <div id="date_nav" class="calendar_title">
+                  <div class="floatL left">
+                    <!--<a href="history_prev.html" class="glyphicon glyphicon-chevron-left"></a>-->
+                    <a href="#"><p id="prev_month">April</p></a>
                   </div>
+                  <div class="text" id="selected_date">May</div>
+                  <div class="floatR right">
+                    <!--<a href="history_next.html" class="glyphicon glyphicon-chevron-right"></a>-->
+                    <a href="#"><p id ="next_month">June</p></a>
+                  </div>
+                </div>
+                <div class="container_cal">
+                  <div id="datepicker"></div>
+                </div>
               </div>
             </section>
           </div>
+
+
       </div> <!-- tab content -->
     </div> <!-- outside container -->
     <nav id="menu_nav">

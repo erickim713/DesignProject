@@ -6,6 +6,12 @@
 		<meta name="mobile-web-app-capable" content="yes" /> <!-- Android Chrome fullscreen webapp -->
 		<script src="./static/js/jquery-3.2.1.min.js"></script>
 		<script src="./static/js/script.js"></script>
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<!--<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">--> <!-- Lato font from Google Font -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet"> <!-- Lato font extended, use regular version(upper one) if it's too slow -->
 		<link rel="stylesheet" href="./static/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -61,39 +67,44 @@
           </div>
           <div class="mySlides">
             <a class="carousel" href="photos.html" style="background: url(static/image/drinking1.jpg) 0 0 no-repeat transparent; background-size: cover;">
-             <div class="text">Your lastest recording on May 2nd, 2017</div>
+             <div class="text">Photo from May 2nd, 2017</div>
              </a>
           </div>
           <div class="mySlides">
             <a class="carousel" href="photos.html" style="background: url(static/image/drinking2.jpg) 0 0 no-repeat transparent; background-size: cover;">
-             <div class="text">Your lastest recording on May 2nd, 2017</div>
+             <div class="text">Photo from May 5th, 2017</div>
              </a>
           </div>
           <div class="mySlides">
             <a class="carousel" href="photos.html" style="background: url(static/image/drinking3.jpg) 0 0 no-repeat transparent; background-size: cover;">
-             <div class="text">Your lastest recording on May 2nd, 2017</div>
+             <div class="text">Photo from April 27th, 2017</div>
              </a>
           </div>
           </div>
 
       	<a class="btnStartRecording" href="recording.html">Start Recording</a>
+
+
   		<div class="calendar">
-  		<div class="container">
-  		  <div id="datepicker"></div>
+        <div class= "calendar_title"><h3> May </h3></div>
+  		  <div class="container_cal">
+  		    <div id="datepicker"></div>
+  		  </div>
   		</div>
-  		</div>
-  		<a class="carousel" href="history_prev.html" style="margin-top: 5vh;">
-  		  <img id="map_image" src="static/image/placeholder_map.png" alt="">
+
+      <a class="carousel" href="history_next.html">
+        <img id="map_image" src="static/image/may5.png" alt="">
+      <div class="text">May 5th, 2017</div>
+      </a>
+      <a class="carousel" href="history.html">
+        <img id="map_image" src="static/image/may2.png" alt="">
+      <div class="text">May 2nd, 2017</div>
+      </a>
+  		<a class="carousel" href="history_prev.html">
+        <img id="map_image" src="static/image/april27.png" alt="">
   		<div class="text">April 27th, 2017</div>
   		</a>
-  		<a class="carousel" href="history.html">
-  		  <img id="map_image" src="static/image/placeholder_map.png" alt="">
-  		<div class="text">May 2nd, 2017</div>
-  		</a>
-  		<a class="carousel" href="history_next.html">
-  		  <img id="map_image" src="static/image/placeholder_map.png" alt="">
-  		<div class="text">May 5th, 2017</div>
-  		</a>
+
 
     </div>
     	<nav id="menu_nav">
@@ -117,7 +128,7 @@
             myIndex++;
             if (myIndex > x.length) {myIndex = 1}
             x[myIndex-1].style.display = "block";
-            setTimeout(carousel, 2000); // Change image every 2 seconds
+            setTimeout(carousel, 3000); // Change image every 2 seconds
         }
       </script>
 
