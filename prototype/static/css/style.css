@@ -171,12 +171,12 @@ html body { width: 100%; height: 100%; padding: 0; margin: 0; display: block; fo
 
 /* universal */
 
-nav#top_nav { border-bottom: 1px solid #aaa; height: 7.74vh; font-size: 2.98vh; line-height: 7.74vh; padding: 0 4vw; font-weight: bold; color: white; width: 92vw; box-sizing: content-box; background-color : #ca5b14;}
+nav#top_nav { border-bottom: 1px solid #aaa; height: 7.74vh; font-size: 2.98vh; line-height: 7.74vh; padding: 0 4vw; font-weight: bold; color: white; width: 92vw; box-sizing: content-box; background-color : #ca5b14; position: fixed; z-index: 100;}
 nav#top_nav div.text { width: 60vw; height: 7.74vh; position: absolute; left: 20vw; top: 0; overflow: hidden; text-align: center; }
 nav#top_nav div.left, nav#top_nav div.right { width: 16vw; height: 7.74vh; }
 nav#top_nav div.left { text-align: left; }
 nav#top_nav div.right { text-align: right; }
-nav#menu_nav { position: fixed; top: 0; right: -100vw; display: block; opacity: 0; width: 100vw; height: 100vh; transition: .3s; }
+nav#menu_nav { position: fixed; top: 0; right: -100vw; display: block; opacity: 0; width: 100vw; height: 100vh; transition: .3s; z-index: 200;}
 nav#menu_nav.opened { right: 0; display: block; opacity: 1;}
 nav#menu_nav div.background { position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; cursor: pointer; background-color: rgba(0,0,0,.3); z-index: 1; }
 nav#menu_nav ul#menu { position: absolute; top: 0; right: 0; width: 40vw; height: 100vh; background-color: white; z-index: 2; box-shadow: 0 0 10vw -2vw black; }
@@ -186,6 +186,8 @@ nav#menu_nav ul#menu li: hover{background-color : #d9d9d9;}
 div.tab_selector { width: 80.5vw; margin-left: 9.75vw; height: 3vh; line-height: 3vh; font-size: 2vh; text-align: center; border: .5vw solid #ddd; margin-top: 3vw; margin-bottom: 3vw; border-radius: 2vw;}
 div.tab_selector .tab { width: 40vw; border-right: .5vw solid #ddd; }
 div.tab_selector .tab.selected { background-color: #e09400; color: white;}
+
+div.outer_container { padding-top: 7.74vh; }
 
 /*****************************************************/
 
@@ -215,6 +217,9 @@ body#recording div.page div.btnRecord span.text2 { display: none; }
 body#recording div.page div.btnRecord.recording { background-color: #34a853; color : white; }
 body#recording div.page div.btnRecord.recording span.text1 { display: none; }
 body#recording div.page div.btnRecord.recording span.text2 { display: inline; }
+
+/*****************************************************/
+
 /* individual history page */
 
 div#date_nav {
@@ -248,11 +253,11 @@ div#date_nav a {
   font-size: 4vw;
   width: 100%;
 }
-#path_or_photos ul li a {color : black;}
-#path_or_photos ul li.active a{ background-color : #e09400; color : white;}
-#map_image{
-  width:100%;
-}
+
+#path_or_photos ul li {width: 50vw;}
+
+#path_or_photos ul li a {color : gray; background-color: #d9d9d9; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+#path_or_photos ul li.active a{ background-color : #e09400; color : white; }
 
 #list_of_activities{
   padding-top: 5%;
@@ -302,6 +307,7 @@ section#photo_grid{
   margin-left: 0;
   margin-right: 0;
   text-align: center;
+
 }
 section#photo_grid .container{
   margin: 0;
@@ -369,10 +375,10 @@ img#drinking {
 
 .close {
     position: absolute;
-    top: 1.04vw;
+    top: 25vh;
     right: 2.43vw;
     color: white !important;
-    font-size: 2.78vw !important;
+    font-size: 10vw !important;
 
     transition: 0.3s;
 }
@@ -383,6 +389,21 @@ img#drinking {
     text-decoration: none;
     cursor: pointer;
 }
+
+
+/*****************************************************/
+
+/* calendar.html page */
+
+div.carousel_container {  height : 35vh; display:none;width :100%; position:relative;}
+#map_image{
+  width:100%;
+   object-fit : contain;
+}
+
+
+
+/*****************************************************/
 
 
 /* SCROLL */
