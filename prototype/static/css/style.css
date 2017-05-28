@@ -448,7 +448,7 @@ img#drinking {
   height: 7vh;
 }
 
-.viewport-v1 div.icon { width: 15vw; height: 7vh; font-size: 3.5vw; line-height: 7vh; float: left; }
+.viewport-v1 div.icon { width: 15vw; height: 7vh; font-size: 5.5vw; line-height: 7vh; float: left; }
 .viewport-v1 div.time { width: 20vw; height: 7vh; font-size: 3.5vw; line-height: 7vh; float: left; }
 .viewport-v1 div.name { width: 35vw; height: 7vh; font-size: 3.5vw; line-height: 7vh; float: left; }
 .viewport-v1 div.note { width: 30vw; height: 7vh; font-size: 3.5vw; line-height: 7vh; float: left; }

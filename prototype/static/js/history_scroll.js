@@ -92,7 +92,15 @@ function init_scroll(){
             <div class="note"></div>\
             </div>');
         $newdiv.find('.time').text(lead_zero($entry[i].time.getHours()) + ":" + lead_zero($entry[i].time.getMinutes()));
-        $newdiv.find('.icon').text('-');
+        if($entry[i].type == "start_recording") {
+            $newdiv.find('.icon').html('<i class="fa fa-pencil-square-o" aria-hidden="true"></i>');
+        }
+        if($entry[i].type == "transaction") {
+            $newdiv.find('.icon').html('<i class="fa fa-credit-card-alt" aria-hidden="true"></i>');
+        }
+        if($entry[i].type == "end_recording") {
+            $newdiv.find('.icon').html('<i class="fa fa-bed" aria-hidden="true"></i>');
+        }
         $newdiv.find('.name').text($entry[i].activity);
         $newdiv.find('.note').text($entry[i].note);
         $newdiv.addClass('clearfix');
