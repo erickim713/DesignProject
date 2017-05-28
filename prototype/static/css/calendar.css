@@ -183,3 +183,74 @@
 .ui-datepicker-calendar tr:last-child .ui-state-active {
   height: 29px;
 }
+
+table.entry{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #707070;
+  border-collapse:separate;
+  border-radius:6px;
+  -moz-border-radius:6px;
+    box-shadow 10px 10px 5px #888888;
+}
+
+td, th{
+    font-family: 'Open Sans', sans-serif;
+}
+
+td.date{
+  text-align: center;
+vertical-align: middle;
+}
+td.descriptor{
+  text-align: center;
+    vertical-align: middle;
+}
+
+th.date, th.descriptor{
+    border-bottom: 1px solid black;
+}
+
+thead.list_entry{
+  font-size: 30px;
+}
+
+#most_recent_text{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 3px;
+    display: inline;
+    border-left: solid 2px black;
+    border-top: solid 2px black;
+    border-right: solid 2px black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+tr.month_bar{
+    margin-left: 10px;
+    font: 40px 'Pacifico', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
+
+tr.normal_entry{
+    height: 3vh;
+}
+
+tr.normal_entry:hover{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #DFDFDF , white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #DFDFDF , white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #DFDFDF , white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #DFDFDF , white); /* Standard syntax */
+    color: black;
+}
+
+.entry_table{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
