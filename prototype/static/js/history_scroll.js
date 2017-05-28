@@ -84,8 +84,19 @@ function init_scroll(){
 	//VERTICAL SCROLL
 	$('.ICV').append("<div class='viewport-vpadding'></div>");
 	var i;
-	for (i=0;i<list.length;i++){
-		$('.ICV').append("<div class='viewport-v1'>"+lead_zero(list[i].getHours()) + ":" + lead_zero(list[i].getMinutes())+"</div>");
+	for (i=0;i<$entry.length;i++){
+        var $newdiv = $('<div class="viewport-v1">\
+            <div class="icon"></div>\
+            <div class="time"></div>\
+            <div class="name"></div>\
+            <div class="note"></div>\
+            </div>');
+        $newdiv.find('.time').text(lead_zero($entry[i].time.getHours()) + ":" + lead_zero($entry[i].time.getMinutes()));
+        $newdiv.find('.icon').text('-');
+        $newdiv.find('.name').text($entry[i].activity);
+        $newdiv.find('.note').text($entry[i].note);
+        $newdiv.addClass('clearfix');
+		$('.ICV').append($newdiv);
 	}
 	$('.ICV').append("<div class='viewport-vpadding'></div>");
 
@@ -103,13 +114,13 @@ function init_scroll(){
 
     function ICVtoTime(scrollY) {
     	var index = Math.floor(Math.abs(scrollY / $('.viewport-v1').height()));
-    	if (index>=list.length-1){
+    	if (index>=$entry.length-1){
     		index--;
     	}
     	
     	var percent = (Math.abs(scrollY) - (index) * $('.viewport-v1').height()) / $('.viewport-v1').height();
-    	var elapsed = (list[index].getTime() - list[0].getTime()) / 1000 / 60;
-    	var inSegment = (list[index + 1].getTime() - list[index].getTime()) * percent / 1000 / 60;
+    	var elapsed = ($entry[index].time.getTime() - $entry[0].time.getTime()) / 1000 / 60;
+    	var inSegment = ($entry[index + 1].time.getTime() - $entry[index].time.getTime()) * percent / 1000 / 60;
     	return elapsed + inSegment;
     }
 
@@ -124,14 +135,14 @@ function init_scroll(){
     function timeToICV(time) {
     	var scrollY;
     	var index = 0;
-    	while(time > (list[index + 1].getTime() - list[index].getTime()) / 60 / 1000) { 
-    		time -= (list[index + 1].getTime() - list[index].getTime()) / 60 / 1000;
+    	while(time > ($entry[index + 1].time.getTime() - $entry[index].time.getTime()) / 60 / 1000) { 
+    		time -= ($entry[index + 1].time.getTime() - $entry[index].time.getTime()) / 60 / 1000;
     		index += 1;
-    		if(index >= list.length - 1) break;
+    		if(index >= $entry.length - 1) break;
     	}
-    	if(index >= list.length - 1) index --;
+    	if(index >= $entry.length - 1) index --;
     	scrollY = $('.viewport-v1').height() * index;
-    	var percent = time / ((list[index + 1].getTime() - list[index].getTime()) / 60 / 1000);
+    	var percent = time / (($entry[index + 1].time.getTime() - $entry[index].time.getTime()) / 60 / 1000);
     	scrollY += $('.viewport-v1').height() * percent;
     	return scrollY;
     }
@@ -164,18 +175,19 @@ function init_scroll(){
     var scroll_h;
     var scroll_v;
 	$('#container-horizontal').scroll(function(){
-		//if($(this).scrollLeft() == scroll_v) return;
+		if($(this).scrollLeft() == scroll_v) return;
         var latlng = timeToLatLng(ICHtoTime($('.ICH').position().left));
         $marker.setPosition(latlng);
         map.setCenter(latlng);
-        /*
 		scroll_h = parseInt(Math.floor(timeToICV(ICHtoTime($('.ICH').position().left))));
 		$('#container-vertical').scrollTop(scroll_h);
-        */
 	});
 
 	$('#container-vertical').scroll(function(){
 		if($(this).scrollTop() == scroll_h) return;
+        var latlng = timeToLatLng(ICVtoTime($('.ICV').position().top));
+        $marker.setPosition(latlng);
+        map.setCenter(latlng);
 		scroll_v = parseInt(Math.floor(timeToICH(ICVtoTime($('.ICV').position().top))));
 		$('#container-horizontal').scrollLeft(scroll_v);
 	});

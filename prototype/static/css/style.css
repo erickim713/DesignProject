@@ -105,7 +105,8 @@ input, select {
 /* defaults */
 
 html body { width: 100%; height: 100%; padding: 0; margin: 0; display: block; font-family: 'Lato', sans-serif; }
-
+* {  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -moz-tap-highlight-color: rgba(0, 0, 0, 0); user-select: none; }
 .clearfix:after {
   content:"";
   display:table;
@@ -171,7 +172,7 @@ html body { width: 100%; height: 100%; padding: 0; margin: 0; display: block; fo
 
 /* universal */
 
-nav#top_nav { border-bottom: 1px solid #aaa; height: 7.74vh; font-size: 2.98vh; line-height: 7.74vh; padding: 0 4vw; font-weight: bold; color: white; width: 92vw; box-sizing: content-box; background-color : #ca5b14;}
+nav#top_nav { height: 7.74vh; font-size: 2.98vh; line-height: 7.74vh; padding: 0 4vw; font-weight: bold; color: white; width: 92vw; box-sizing: content-box; background-color : #ca5b14;}
 nav#top_nav div.text { width: 60vw; height: 7.74vh; position: absolute; left: 20vw; top: 0; overflow: hidden; text-align: center; }
 nav#top_nav div.left, nav#top_nav div.right { width: 16vw; height: 7.74vh; }
 nav#top_nav div.left { text-align: left; }
@@ -257,9 +258,6 @@ div#date_nav a {
 }
 
 #list_of_activities{
-  padding-top: 5%;
-  padding-bottom: 5%;
-  text-align: center;
 }
 
 .hiddenRow {
@@ -310,11 +308,13 @@ section#photo_grid .container{
   width:98%;
   padding: 0;
 }
-#photo_grid #imgwrapper{
-  height:18vh;
-  margin-bottom: 1%;
+#photo_grid .imgwrapper{
+  height:32vw;
+  width: 32vw;
+  margin: 0 2vw 2vw 0;
   overflow: hidden;
 }
+#photo_grid .imgwrapper:nth-child(3n) { margin-right: 0; }
 #photo_grid img{
   object-fit: cover;
 }
@@ -428,7 +428,7 @@ img#drinking {
 #container-vertical
 {
   width: 100vw;
-  height: 29.52vh;
+  height: 31.7vh;
   overflow-x: hidden;
   overflow-y: scroll;
 
@@ -440,19 +440,33 @@ img#drinking {
 .viewport-v1
 {
   font-size: 50px;
-  border-bottom: groove;
   text-align: center;
-  line-height: 10vh;
+  line-height: 7vh;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ddd;
   width: 100vw;
-  height: 10vh;
+  height: 7vh;
 }
+
+.viewport-v1 div.icon { width: 15vw; height: 7vh; font-size: 3.5vw; line-height: 7vh; float: left; }
+.viewport-v1 div.time { width: 20vw; height: 7vh; font-size: 3.5vw; line-height: 7vh; float: left; }
+.viewport-v1 div.name { width: 35vw; height: 7vh; font-size: 3.5vw; line-height: 7vh; float: left; }
+.viewport-v1 div.note { width: 30vw; height: 7vh; font-size: 3.5vw; line-height: 7vh; float: left; }
 
 .viewport-vpadding
 {
   text-align: center;
   width: 100vw;
-  height: 20vh;
-  border-bottom: groove;
+  height: 12.35vh;
+  background-color: #ddd;
 }
 
 #path_map { width: 100vw; height: 30vh; }
+
+#list_of_activities div.table-header { width: 100vw; height: 6vh; line-height: 6vh; text-align: center; border-bottom: 1px solid #ddd;}
+
+.table-header div.icon { width: 15vw; height: 6vh; font-size: 3.5vw; line-height: 6vh; float: left; }
+.table-header div.time { width: 20vw; height: 6vh; font-size: 3.5vw; line-height: 6vh; float: left; }
+.table-header div.name { width: 35vw; height: 6vh; font-size: 3.5vw; line-height: 6vh; float: left; }
+.table-header div.note { width: 30vw; height: 6vh; font-size: 3.5vw; line-height: 6vh; float: left; }
+
