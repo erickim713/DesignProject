@@ -115,7 +115,7 @@
 
 .ui-datepicker tbody td.history_day a.ui-state-default {
   background: none;
-  background-color: #c84;
+  background-color: #e09400;
   font-size: 2vh; line-height: 5vh; height: 5vh;
   color: white; 
 }

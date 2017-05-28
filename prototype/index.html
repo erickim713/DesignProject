@@ -50,11 +50,35 @@
 			<div class="text">Drunken Path</div>
 			<div class="floatR right"><i class="fa fa-bars" aria-hidden="true"></i></div>
 		</nav>
-		<a class="carousel" href="history.html">
-        	<img id="map_image" src="static/image/placeholder_map.png" alt="">
-			<div class="text">Your lastest recording on May 2nd, 2017</div>
-    	</a>
-    	<a class="btnStartRecording" href="recording.html">Recording</a>
+
+      <div class="slideshow">
+        <div class="mySlides">
+          <a class="carousel" href="history.html">
+        	 <img class="mySlides_img" src="static/image/placeholder_map.png" alt="">
+			     <div class="text">Your lastest recording on May 2nd, 2017</div>
+          </a>
+        </div>
+        <div class="mySlides">
+          <a class="carousel" href="photos.html">
+          <img class="mySlides_img" src="static/image/drinking1.jpg" alt="">
+           <div class="text">Your lastest recording on May 2nd, 2017</div>
+           </a>
+        </div>
+        <div class="mySlides">
+          <a class="carousel" href="photos.html">
+          <img class="mySlides_img" src="static/image/drinking2.jpg" alt="">
+           <div class="text">Your lastest recording on May 2nd, 2017</div>
+           </a>
+        </div>
+        <div class="mySlides">
+          <a class="carousel" href="photos.html">
+          <img class="mySlides_img" src="static/image/drinking3.jpg" alt="">
+           <div class="text">Your lastest recording on May 2nd, 2017</div>
+           </a>
+        </div>
+        </div>
+
+    	<a class="btnStartRecording" href="recording.html">Start Recording</a>
 		<div class="calendar">
 		<div class="container">
 		  <div id="datepicker"></div>
@@ -80,6 +104,22 @@
 	    		<a href="photos.html"><li><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Photos</li></a>
 	    	</ul>
     	</nav>
-    	
+      <script type="text/javascript">
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+      </script>
+
 	</body>
 </html>
