@@ -18,6 +18,7 @@ $(document).ready(function(){
 	display_rest();
 });
 
+
 function init_firebase(){
 	var calendar_config = {
 		apiKey: "AIzaSyCq1fJ_iSgifDThmC1EE0Tz7tjsuuuibMs",

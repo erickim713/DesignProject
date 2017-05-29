@@ -6,6 +6,7 @@
 		<meta name="mobile-web-app-capable" content="yes" /> <!-- Android Chrome fullscreen webapp -->
 		<script src="./static/js/jquery-3.2.1.min.js"></script>
 		<script src="./static/js/script.js"></script>
+    <script src="./static/js/calendar.js"></script>
      <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <!-- jQuery library -->
@@ -27,6 +28,7 @@
 		      return [true, $.datepicker.formatDate('yy-mm-dd', date)];
 		        },
 		         onSelect: function(date, inst) {
+              initialise();
 		             if(date == "05/02/2017"){
 		                 console.log(date);
 		        window.location = 'history.html';
@@ -39,15 +41,36 @@
 		                 console.log(date);
 		        window.location = 'history_next.html';
 		             }
-		        console.log(date);
+
+		       console.log(date);
 		    },
 		  	});
 		  });
-		  $(document).ready(function() {
-		    $dates = $('td.2017-04-27, td.2017-05-02, td.2017-05-05');
-		    $dates.addClass('history_day');
-		    $('.ui-datepicker-header').remove();
-		  });
+		  // $(document).ready(function() {
+		  //   $dates = $('td.2017-04-27, td.2017-05-02, td.2017-05-05');
+		  //   $dates.addClass('history_day');
+		  //   $('.ui-datepicker-header').remove();
+		  // });
+    function initialise(){
+        $dates = $('td.2017-04-27, td.2017-05-02, td.2017-05-05');
+        $dates.addClass('history_day');
+
+      }
+      $(document).ready(function() {
+          initialise();
+
+      });
+
+  $(document).ready(function() {
+    initialise();
+    $('div.tab_selector .tab').click(function() {
+      $('.page_tab').addClass('disp-none');
+      $('.page_tab.' + $(this).attr('data-for')).removeClass('disp-none');
+      $('div.tab_selector .tab').removeClass('selected');
+      $(this).addClass('selected');
+    });
+  });
+
 		</script>
 	</head>
 	<body id="index">
@@ -85,11 +108,13 @@
       	<a class="btnStartRecording" href="recording.html">Start Recording</a>
 
 
-  		<div class="calendar">
-        <div class= "calendar_title"><h3> May </h3></div>
-  		  <div class="container_cal">
-  		    <div id="datepicker"></div>
-  		  </div>
+      <div id="calendar">
+    		<div class="calendar">
+          <!--<div class= "calendar_title"><h3> May </h3></div>-->
+    		  <div class="container_cal">
+    		    <div id="datepicker"></div>
+    		  </div>
+        </div>
   		</div>
 
       <a class="carousel" href="history_next.html">
@@ -131,6 +156,13 @@
             x[myIndex-1].style.display = "block";
             setTimeout(carousel, 3000); // Change image every 2 seconds
         }
+
+        $("a.ui-datepicker-prev span").click(function (){
+          console.log("a");
+        if ($('.ui-datepicker-month').val() == "May") {
+          console.log("ddd");
+          }
+       });
       </script>
 
 	</body>

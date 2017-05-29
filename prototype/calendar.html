@@ -24,8 +24,10 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,400" rel="stylesheet">
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
+
   $(document).ready(function() {
     $("#datepicker").datepicker({
+      inline : true,
   		showOtherMonths: false,
   		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
         beforeShowDay: function(date) {
@@ -61,12 +63,6 @@
       $(this).addClass('selected');
     });
   });
-
-    $(document).ready(function() {
-      $('#prev_month').click(function () {
-
-      })
-    });
 
 
   </script>
@@ -123,24 +119,26 @@
 
           <div id="calendar" class= "tab-pane fade">
       <!-- calendar section -->
+
             <section id="photo_grid">
               <div class="calendar">
+              <!--
                 <div id="date_nav" class="calendar_title">
                   <div class="floatL left">
-                    <!--<a href="history_prev.html" class="glyphicon glyphicon-chevron-left"></a>-->
                     <a href="#"><p id="prev_month">April</p></a>
                   </div>
                   <div class="text" id="selected_date">May</div>
                   <div class="floatR right">
-                    <!--<a href="history_next.html" class="glyphicon glyphicon-chevron-right"></a>-->
                     <a href="#"><p id ="next_month">June</p></a>
                   </div>
                 </div>
+                 -->
                 <div class="container_cal">
                   <div id="datepicker"></div>
                 </div>
               </div>
             </section>
+
           </div>
 
 
