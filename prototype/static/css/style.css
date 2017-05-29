@@ -218,9 +218,9 @@ body#recording nav#top_nav { position: fixed; width: 92vw; }
 body#recording div.page { width: 100vw; height: 90vh; padding-top: 10vh; }
 body#recording div.page div.timer { width: 100vw; height: 20vh; line-height: 10vh; margin-top: 20vh; font-size: 10vw; text-align: center; }
 body#recording div.page div.timer div.time { font-size: 15vw; }
-body#recording div.page div.btnRecord { width: 90vw; height: 10vh; line-height: 10vh; margin-top: 10vh; font-size: 6vw; text-align: center; margin-left: 5vw; background-color: #e09400; color: white; border-radius: 3vw; cursor: pointer; }
+body#recording div.page div.btnRecord { width: 90vw; height: 10vh; line-height: 10vh; margin-top: 10vh; font-size: 6vw; text-align: center; margin-left: 5vw; background-color: #34a853; color: white; border-radius: 3vw; cursor: pointer; }
 body#recording div.page div.btnRecord span.text2 { display: none; }
-body#recording div.page div.btnRecord.recording { background-color: #34a853; color : white; }
+body#recording div.page div.btnRecord.recording { background-color: #ea4335; color : white; }
 body#recording div.page div.btnRecord.recording span.text1 { display: none; }
 body#recording div.page div.btnRecord.recording span.text2 { display: inline; }
 
@@ -262,9 +262,9 @@ div#date_nav a {
   width: 100%;
 }
 
-#path_or_photos ul li {width: 50vw;}
+#path_or_photos ul li {width: 50vw;border-radius: 0;}
 
-#path_or_photos ul li a {color : gray; background-color: #d9d9d9; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+#path_or_photos ul li a {color : gray; background-color: #d9d9d9;border-radius: 0;}
 #path_or_photos ul li.active a{ background-color : #e09400; color : white; }
 
 #list_of_activities{
