@@ -93,6 +93,8 @@ Summary of the Session:<br>
 	* minor bug that should be fixed by connecting the calendar to the database
 * P8 : How to prevent accidentally pressing stop record, because the user is drunk. (low)
 	* idea : add a “slide to unlock” kind of feature to lock the phone while recording
+* P9 :  Navigating and exploring the history page with the time slider that synchronises with the map was not familiar for the first time users
+	* Users did quickly get used to it. However, there might be too many things ( 3 different UIs) that are changing at the same time.
   
 
 ### ** Overall reflection **
