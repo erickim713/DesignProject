@@ -77,7 +77,8 @@ Summary<br>
 **Why this person?:** He was interested in the application because he had many friends who always drink too much and need to be taken care of.
 
 **Summary:**<br>
- 
+  It was a little hard to understand how to use the interface at first. There needs to be an explanation of the first screen by the functions. Also, after stopping the recording, it would be nice to tell the user that a new recording has been successfully made. I thought the application was very useful in the way that it told me how much I used, and showed me who I was with during the occasion. I think the vertical scroll in the path tab of the history page needs to be calibrated properly so that the location is matched with the transaction. I didn't have too much trouble carrying out the tasks. I wish the photos were also ordered or organized in a way that allows me to match the location with the photos. I remember my friend who lost his cellphone at a pub, but still could not find it. However, if he had this applications, that friend might have found it! I think that this can also be useful for any other objects that do not support GPS(such as shoes, keys, wallets, etc). This web application seems to have many functions but it does not seem to be specialized for a specific purpose. 
+  
 
 -----------
 ### **Usability Lessons**
