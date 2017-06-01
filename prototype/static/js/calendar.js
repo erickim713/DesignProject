@@ -12,10 +12,10 @@ var months = ["January", "February", "March", "April", "May", "June", "July", "A
 var datesRef;
 var most_recent_entry;
 $(document).ready(function(){
-	init_firebase();
-	for_demo_purposes();
-	identify_most_recent();
-	display_rest();
+	// init_firebase();
+	// for_demo_purposes();
+	// identify_most_recent();
+	// display_rest();
 });
 
 
