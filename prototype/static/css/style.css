@@ -509,5 +509,30 @@ div#image_modal img { width: 100vw; position: absolute; top: 50vh; left: 50vw; z
 table.calendar-table{
   margin-left:auto;
   margin-right:auto;
-  width:70%;
+  width: 42vh;
+  height: 49vh;
+  border-collapse: collapse;
+}
+
+td.calendar-day{
+  width: 6vh;
+}
+
+tr.calendar-header{
+  height: 0vh;
+}
+
+tr.calendar-monthyear{
+  height: 6vh;
+  background-color: rgba(255, 125, 87, 0.1);
+}
+
+tr.calendar-header td {
+  border-bottom:1pt solid black;
+  text-align: center;
+  
+}
+
+tr.divider{
+  height: 2vh;
 }
