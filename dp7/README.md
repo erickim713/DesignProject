@@ -86,6 +86,15 @@ Summary<br>
 **Summary:**<br>
   It was a little hard to understand how to use the interface at first. There needs to be an explanation of the first screen by the functions. Also, after stopping the recording, it would be nice to tell the user that a new recording has been successfully made. I thought the application was very useful in the way that it told me how much I used, and showed me who I was with during the occasion. I think the vertical scroll in the path tab of the history page needs to be calibrated properly so that the location is matched with the transaction. I didn't have too much trouble carrying out the tasks. I wish the photos were also ordered or organized in a way that allows me to match the location with the photos. I remember my friend who lost his cellphone at a pub, but still could not find it. However, if he had this applications, that friend might have found it! I think that this can also be useful for any other objects that do not support GPS(such as shoes, keys, wallets, etc). This web application seems to have many functions but it does not seem to be specialized for a specific purpose. 
 
+<img src="user3.png" width="300">
+
+#### User Testing 3 ####
+**Participant:** 20 years old, Female<br>
+**Recruit method:** Random freshman on the street<br>
+**Why this person?:** She showed interest becasue many of her freshmen friends often go out drinking together.
+
+**Summary:**<br>
+  First of all, this user did not want to have her profile exposed for our testing. She said that the front page needed some labeling so that the information showed makes more sense to the user. She recommended studying other applications that had similar functions. She also highly criticized the calendar interface that did not seem to work and display the information as she expected it to. But generally, she thought this application was a great idea and could vision many people using it in the future. Finally, she asked if there could be any korean versions of the web application.
 
 -----------
 ### **Usability Lessons**
