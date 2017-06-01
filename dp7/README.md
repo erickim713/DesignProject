@@ -9,15 +9,17 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 
 ### **Written Protocol:**
 * Instructions for preparation and setting up the testing environment:
-	* this is a fixed experiment, meaning that the user interface will only be tested and the real data of tracking the person will be created by the web application makers.
+	* Our user study consists of data created by the web application makers. The tested users will participate assuming that they were the ones who started and stopped the already-existing data.
 	* Since our objective is if our user interface is intuitive and learnable, we believed that making the tester remember what this other person did last night can still prove the effectiveness of our user interface.
-	* The users will be given a link to open https://cdn.rawgit.com/erickim713/DesignProject/fc422796/prototype/index.html this is the link to the entry of our app.
-	* When user starts using the application two people will observe, one person will be ready to assist the user if user can't move on without help (hopefully doesn't happen). The last person will be the tech guy who will come into play if there is an error with the web application during the tests.
+	* The users will be given a link to enter into the main page of our application (https://cdn.rawgit.com/erickim713/DesignProject/fc422796/prototype/index.html)
+	* When the user starts using the application, two members of our team will observe and record any comments or details that the user presents. while one person will be ready to assist the user if user gets stuck and is unable move on without help (hopefully this doesn't happen). The last person will be in charge of correcting any technological issues who will come into play if there is an error with the web application during the tests.
 
-* Introduction and informed consent:
+* Introduction:
 	> Thank you for participating in our user study.
 	We found that people who go out to drink often find their wallets empty, glasses broken or missing, call histories that are unexplainable. Our Drunken Path web application aims to help users who often go out to drink recollect their memories about what they did last night. We hope that you are able to have a fun and helpful experience while recalling your memories from your drunk nights through our web application.
-We need your personal information to analyze our project’s results for future improvements. We will collect your age, gender, occupation data. Do you agree?
+	
+* Informed consent:
+	> We need your personal information to analyze our project’s results for future improvements. We will collect your age, gender, occupation data. Do you agree?
 
 * Tutorial:
 	* To test our app's intuitiveness, affordance, and learnability we have no tutorial or training.
@@ -78,7 +80,7 @@ Summary<br>
 
 **Summary:**<br>
   It was a little hard to understand how to use the interface at first. There needs to be an explanation of the first screen by the functions. Also, after stopping the recording, it would be nice to tell the user that a new recording has been successfully made. I thought the application was very useful in the way that it told me how much I used, and showed me who I was with during the occasion. I think the vertical scroll in the path tab of the history page needs to be calibrated properly so that the location is matched with the transaction. I didn't have too much trouble carrying out the tasks. I wish the photos were also ordered or organized in a way that allows me to match the location with the photos. I remember my friend who lost his cellphone at a pub, but still could not find it. However, if he had this applications, that friend might have found it! I think that this can also be useful for any other objects that do not support GPS(such as shoes, keys, wallets, etc). This web application seems to have many functions but it does not seem to be specialized for a specific purpose. 
-  
+
 
 -----------
 ### **Usability Lessons**
