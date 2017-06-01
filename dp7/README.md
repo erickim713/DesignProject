@@ -17,9 +17,9 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 * Introduction:
 	> Thank you for participating in our user study.
 	We found that people who go out to drink often find their wallets empty, glasses broken or missing, call histories that are unexplainable. Our Drunken Path web application aims to help users who often go out to drink recollect their memories about what they did last night. We hope that you are able to have a fun and helpful experience while recalling your memories from your drunk nights through our web application.
-	
+
 * Informed consent:
-	> We need your personal information to analyze our project’s results for future improvements. We will collect your age, gender, occupation data. Do you agree?
+	> We need your personal information to analyze our project’s results for future improvements. We will collect your photo, age, gender, and occupation data. Do you agree?
 
 * Tutorial:
 	* To test our app's intuitiveness, affordance, and learnability we have no tutorial or training.
@@ -37,24 +37,29 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 
 * Recording Strategy:
 	* We will have screen recording so that we can capture the user behavior during the user testing.
-	* 2 of the members will record the user behavior and feedback during the user testing (user’s tend to speak out loud if they are looking for something)
-	* 1 of the member will standby so that if users have trouble using the application for the sake of other task testing, the standby person will help.
-	* Lastly, tech person will wait if there’s any malfunction during testing so that everyone’s aware of what’s going on if there’s a bug
+	* Two members will record the user behavior and feedback during the user testing (user’s tend to speak out loud if they are looking for something)
+	* One member will standby so that if users have trouble using the application for the sake of other task testing, the standby person will help.
+	* Lastly, one member (the tech person) will wait to see if there are any malfunctionings during test.
 
 * Interview Questions:
-	* Were you able to find out ...
-		* What you wanted to find? (or was told to find?)
-		* Amount of money you need to collect?
-		* Where you were?
-		* Where you lost your stuff?
-		* Were you able to use the application smoothly?
-		* Was the navigation easy to do?
-			* If not, what was difficult or not intuitive?
+	* Recording
+		* Were there any difficulties in starting and stopping the recording?
+	* Finding out the location
+		* Were you able to locate where you were at a specific time?
+		* Do you think you will be able to guess where you lost any of your belongings through this function?
+		* Was there anything that was counter-intuitive in the navigation?
+	* Finding out what you did
+		* Were you able to find out how much money you spent?
+		* Do you think this application will be useful in splitting the money the day after(and perhaps calculating the amount of money you need to collect)?
+		* Were you able to find out who you were with last night?
+	* Other
+		* Is there anything about the overall design that you like?
+		* Is there anything that needs improvement?
 
 * Debrief Prompt:
 	> Thank you for taking part in our project.
 
-	> We are trying to aid people who drink a lot that tend to fail remembering their memories from last night. So what we have done is track the person's movement and have user's activity be recorded.  
+	> We are trying to aid people who often drink a lot and fail to recover their memories from previous nights. We hope you enjoyed our application that tracks the user's location and records the user's activities.
 
 
 
@@ -96,15 +101,15 @@ Summary<br>
 	* Actually we wanted to add SNS-like features, but it was beyond the scope of this class, so we omitted. However, it definitely is a notable feature.
 * P5 : When days not drank are selected on the calendar, there is no feedback that the selected date has no information/record. (low)
 	* Can be improved by making the dates unselectable.
-* P6 : some customisable settings would be helpful (mid)
-	* need a settings page where type of recordings can be modified, time when recording automatically ends can be modified as well and  also setting where the user’s home is will also be helpful for GPS tracking.
+* P6 : Some customisable settings would be helpful (mid)
+	* Need a settings page where type of recordings can be modified, time when recording automatically ends can be modified as well and  also setting where the user’s home is will also be helpful for GPS tracking.
 
  **Inconvience and potential error
 * P7 : Days drank marked on calendar disappears when clicking on other dates or clicking on previous/next month buttons (low)
-	* minor bug that should be fixed by connecting the calendar to the database
+	* Minor bug that should be fixed by connecting the calendar to the database
 * P8 : How to prevent accidentally pressing stop record, because the user is drunk. (low)
-	* idea : add a “slide to unlock” kind of feature to lock the phone while recording
-* P9 :  Navigating and exploring the history page with the time slider that synchronises with the map was not familiar for the first time users (low)
+	* Idea : add a “slide to unlock” kind of feature to lock the phone while recording
+* P9 : Navigating and exploring the history page with the time slider that synchronises with the map was not familiar for the first time users (low)
 	* Users did quickly get used to it. However, there might be too many things ( 3 different UIs) that are changing at the same time.
 * P10 : First time users feel like the app is missing some instructional information. (mid)
 	* Create a simple info page under the menu bar 
