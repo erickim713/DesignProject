@@ -74,17 +74,26 @@ Summary of the Session:<br>
 -----------
 ### **Usability Lessons:**
 
-### ** Missing/ expected/ suggested features that could improve UI **
-* P1 : There is no instruction or warning on what kind of things will happend when user starts recording (e.g GPS tracking will happen, at what time the recording will end, what the user should do to save photos...etc)
-* P2 : There is no delete history button (흑역사는 지우고 싶을 수도 )
-* P3 : The individual history page doesn't have a filtering option for the list of activities
-* P4 : The data is only relevant to the user's recording and users are also interested in their friends' record as well.
-* P5 : When days not drank are selected on the calendar, there is no feedback that the selected date has no information/record. 
+**Missing/ expected/ suggested features that could improve UI
+* P1 : There is no instruction or warning on what kind of things will happen when user starts recording (e.g GPS tracking will happen, at what time the recording will end, what the user should do to save photos...etc) (high)
+	* Create a pop-up alert message, briefly notifying the user about the consequences
+* P2 : There is no delete history button (흑역사는 지우고 싶을 수도 ) (mid)
+	 * Add a “delete” button to the history list. No need of an edit button but delete button is needed.
+* P3 : The individual history page doesn't have a filtering option for the list of activities (low)
+	* Our idea had a filtering feature but didn’t implement it here
+* P4 : The data is only relevant to the user's recording but users are also interested in their friends' record as well. (low)
+	* Actually we wanted to add SNS-like features, but it was beyond the scope of this class, so we omitted. However, it definitely is a notable feature.
+* P5 : When days not drank are selected on the calendar, there is no feedback that the selected date has no information/record. (low)
+	* Can be improved by making the dates unselectable.
+* P6 : some customisable settings would be helpful (mid)
+	* need a settings page where type of recordings can be modified, time when recording automatically ends can be modified as well and  also setting where the user’s home is will also be helpful for GPS tracking.
 
-### ** Inconvience and potential error **
-* P6 : Days drank marked on calendar disappears when clicking on other dates or clicking on previous/next month buttons
-* P7 : How to prevent accidentally pressing stop record, because the user is drunk. 
-* P8 : 
+ **Inconvience and potential error
+* P7 : Days drank marked on calendar disappears when clicking on other dates or clicking on previous/next month buttons (low)
+	* minor bug that should be fixed by connecting the calendar to the database
+* P8 : How to prevent accidentally pressing stop record, because the user is drunk. (low)
+	* idea : add a “slide to unlock” kind of feature to lock the phone while recording
+  
 
 ### ** Overall reflection **
 Because our service is not a complicated and extensive, we tried to make sure we do not add extraneous features to make the service unnecessarily complicated. We made sure our focus was on checking back on the recorded history, and the user testing was effective in showing that people's main interest is indeed what they did and where they were last night. There were many questions about how the recording actually works. People showed concern about what would happen if they accidently press stop button or they wanted to make sure that they were reminded for taking photo and the photos were automatically saved in the app, instead of them manually saving them into the app. Overall, the feedback was positive about the UI as well as the idea and the uniqueness (+ fun) of the service. For next time, we should not just assume that not implementing certain features can be just replaced by our explanations, but rather we should at least build a strong layout and inform the unimplemented features to the users beforehand so that they focus on the features they are testing on. 
