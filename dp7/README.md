@@ -102,7 +102,7 @@ Summary<br>
 **Missing/ expected/ suggested features that could improve UI
 * P1 : There is no instruction or warning on what kind of things will happen when user starts recording (e.g GPS tracking will happen, at what time the recording will end, what the user should do to save photos...etc) (high)
 	* Create a pop-up alert message, briefly notifying the user about the consequences
-* P2 : There is no delete history button (흑역사는 지우고 싶을 수도 ) (mid)
+* P2 : There is no delete history button (the user may want to delete unwanted memories) (mid)
 	 * Add a “delete” button to the history list. No need of an edit button but delete button is needed.
 * P3 : The individual history page doesn't have a filtering option for the list of activities (low)
 	* Our idea had a filtering feature but didn’t implement it here
