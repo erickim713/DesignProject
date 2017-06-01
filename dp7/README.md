@@ -29,7 +29,7 @@ We need your personal information to analyze our project’s results for future 
 		* End the recording (test end recording)
 	* Find out what you did on previous nights
 		* How much are you supposed to collect from your friends on May 2nd?
-		* Who were you with on May 5th?
+		* How much did you spend the whole day?
 	* Find out where you were on previous nights
 		* Where were you at 11:50pm on May 5th?
 		* At what time did you arrive at your home on April 27th?
@@ -44,8 +44,6 @@ We need your personal information to analyze our project’s results for future 
 	* Were you able to find out ...
 		* What you wanted to find? (or was told to find?)
 		* Amount of money you need to collect?
-		* Who you were with?
-		* Who you talked or hung out with?
 		* Where you were?
 		* Where you lost your stuff?
 		* Were you able to use the application smoothly?
