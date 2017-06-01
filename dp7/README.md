@@ -101,7 +101,10 @@ Summary<br>
 	* minor bug that should be fixed by connecting the calendar to the database
 * P8 : How to prevent accidentally pressing stop record, because the user is drunk. (low)
 	* idea : add a “slide to unlock” kind of feature to lock the phone while recording
-  
+* P9 :  Navigating and exploring the history page with the time slider that synchronises with the map was not familiar for the first time users (low)
+	* Users did quickly get used to it. However, there might be too many things ( 3 different UIs) that are changing at the same time.
+* P10 : First time users feel like the app is missing some instructional information. (mid)
+	* Create a simple info page under the menu bar 
 
 ### ** Overall reflection **
 Because our service is not a complicated and extensive, we tried to make sure we do not add extraneous features to make the service unnecessarily complicated. We made sure our focus was on checking back on the recorded history, and the user testing was effective in showing that people's main interest is indeed what they did and where they were last night. There were many questions about how the recording actually works. People showed concern about what would happen if they accidently press stop button or they wanted to make sure that they were reminded for taking photo and the photos were automatically saved in the app, instead of them manually saving them into the app. Overall, the feedback was positive about the UI as well as the idea and the uniqueness (+ fun) of the service. For next time, we should not just assume that not implementing certain features can be just replaced by our explanations, but rather we should at least build a strong layout and inform the unimplemented features to the users beforehand so that they focus on the features they are testing on. 
