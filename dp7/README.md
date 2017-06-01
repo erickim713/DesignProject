@@ -68,7 +68,7 @@ Why This person?: He doesn't drink too often but when he drinks a lot he tends t
 
 Summary of the Session: the user stated that the app was really useful because he can clearly see where he was last night. Just by doing that, he said, the possible locations of the lost belongings are limited. In addition he said the navigation and usage of the app was very intuitive. He first stated that calendar was not intuitive enough because of the unfinished implementation. He also stated that history page was not intuitve. The information that it provides is really valuable and easy to use when the user is used to it but when encountering first time, he said he didn't know what to do.
 
-<img src="richard.png">
+<img src="richard.png" width="400" height="400">
 
 
 
