@@ -59,6 +59,9 @@ We need your personal information to analyze our project’s results for future 
 ### **Session Observations**
 
 #### User Testing 1 ####
+
+<img src="user1.png" width="300">
+
 Participant: 24 years old, Male<br>
 Recruit method: Close friend of one of our members<br>
 Why this person?: He doesn't drink too often but when he drinks a lot he tends to lose his stuff and forget where he left his belongings.
@@ -66,7 +69,7 @@ Why this person?: He doesn't drink too often but when he drinks a lot he tends t
 Summary<br>
  The user stated that the app was really useful because he can clearly see where he was last night. Just by doing that, he said, the possible locations of the lost belongings are limited. In addition he said the navigation and usage of the app was very intuitive. He first stated that calendar was not intuitive enough because of the unfinished implementation. He also stated that history page was not intuitve. The information that it provides is really valuable and easy to use when the user is used to it but when encountering first time, he said he didn't know what to do.
 
-<img src="richard.png" width="400">
+<img src="user2.png" width="300">
 
 #### User Testing 2 ####
 **Participant:** 22 years old, Male<br>
@@ -74,7 +77,7 @@ Summary<br>
 **Why this person?:** He was interested in the application because he had many friends who always drink too much and need to be taken care of.
 
 **Summary:**<br>
- The user stated that the app was really useful because he can clearly see where he was last night. Just by doing that, he said, the possible locations of the lost belongings are limited. In addition he said the navigation and usage of the app was very intuitive. He first stated that calendar was not intuitive enough because of the unfinished implementation. He also stated that history page was not intuitve. The information that it provides is really valuable and easy to use when the user is used to it but when encountering first time, he said he didn't know what to do.
+ 
 
 -----------
 ### **Usability Lessons**
