@@ -509,9 +509,10 @@ div#image_modal img { width: 100vw; position: absolute; top: 50vh; left: 50vw; z
 table.calendar-table{
   margin-left:auto;
   margin-right:auto;
-  width: 42vh;
+  width: 56vh;
   height: 49vh;
   border-collapse: collapse;
+  margin-top: 3vh;
 }
 
 td.calendar-day{
@@ -523,16 +524,36 @@ tr.calendar-header{
 }
 
 tr.calendar-monthyear{
-  height: 6vh;
+  height: 8vh;
   background-color: rgba(255, 125, 87, 0.1);
 }
 
 tr.calendar-header td {
   border-bottom:1pt solid black;
   text-align: center;
-  
+  font-size: 2vh;
+}
+
+th.calendar-th{
+  vertical-align: middle;
 }
 
 tr.divider{
   height: 2vh;
+}
+
+.days{
+  border-radius: 50%;
+  font-size: 1.5vh;
+  background: rgba(255, 50, 0, 0.4);
+  display: inline-block;
+}
+.non-days{
+  font-size: 1.5vh;
+  display: inline-block;
+}
+
+.calendar-th{
+  text-align: center;
+  /*do nothing please*/
 }
