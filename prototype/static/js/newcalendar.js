@@ -123,7 +123,7 @@ Calendar.prototype.generateHTML = function(){
     // this loop is for weekdays (cells)
     for (var j = 0; j <= 6; j++) { 
       var input_string =  (this.month+1).toString() +"/" + day.toString() + "/" + (this.year).toString();
-      console.log(input_string);
+      
       if(checkifdrank(input_string)){
         // fixed dates =_=
         if(day == 27){
@@ -183,8 +183,7 @@ function checkifdrank(date1){
   var i = 0;
   for(i = 0; i< 3; i++){
     if (date2.getMonth() == drunkdays[i].getMonth() && date2.getDate() == drunkdays[i].getDate() && date2.getFullYear() == drunkdays[i].getFullYear()){
-      console.log(date2);
-      console.log(drunkdays[i]);
+
       return true;
     }
   }
