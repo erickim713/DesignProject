@@ -17,8 +17,12 @@
 			$('div.btnRecord').click(function() {
 				$(this).toggleClass('recording');
 				$updateTime = $(this).hasClass('recording');
-				if($updateTime)
+				if($updateTime) {
 					$date_start = new Date();
+					popupMessage("Permission Required", "SERVICE ACCESS PERMISSION REQUEST<br />GPS/MMS/Call/Photo Gallery history will be recorded.<br />Press OK to allow.<br />")
+				} else {
+					popupMessage("Success", "RECORDING SUCCESSFULLY SAVED.")
+				}
 			});
 
 			function displayTime() {
@@ -60,12 +64,13 @@
 			<div class="btnRecord"><span class="text1">Start Recording</span><span class="text2">Stop Recording</span></div>
 		</div>
     	<nav id="menu_nav">
-    		<div class="background"></div>
-	    	<ul id="menu">
-	    		<a href="index.html"><li><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Home</li></a>
-	    		<a href="calendar.html"><li><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;History</li></a>
-	    		<a href="photos.html"><li><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Photos</li></a>
-	    	</ul>
-    	</nav>
+        <div class="background"></div>
+        <ul id="menu">
+          <a href="index.html"><li><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Home</li></a>
+          <a href="calendar.html"><li><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;History</li></a>
+          <a href="photos.html"><li><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Photos</li></a>
+          <a href="howtouse.html" style="margin-bottom: 0;"><li><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;How to Use</li></a>
+        </ul>
+      </nav>
 	</body>
 </html>

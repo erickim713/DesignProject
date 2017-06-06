@@ -198,10 +198,11 @@ div.outer_container { padding-top: 7.74vh; }
 a.carousel { display: block; cursor: pointer; position: relative; width: 100%; margin-bottom: 2vh;}
 div.slideshow a.carousel { height : 35vh; }
 a.carousel div.text { width: 100%; height:7vh; text-align: right; line-height: 3vh; padding: 2vh 2vh; box-sizing: border-box; background: rgba(0, 0, 0, .3); position: absolute; bottom: 0; right: 0; color: white; font-size: 2.7vh; }
-a.btnStartRecording { display: block; width: 90vw; height: 10vh; text-align: center; line-height: 10vh; background-color: #e09400; font-size: 3vh; margin: 5vw; border-radius: 2vw; color: white; font-weight: bold; text-decoration: none; cursor: pointer; margin-top : 8vw; margin-bottom: 8vw; }
+a.btnStartRecording { display: block; position: fixed; bottom: 0; left: 0; width: 100vw; height: 10vh; text-align: center; line-height: 10vh; background-color: #e09400; font-size: 3vh; color: white; font-weight: bold; text-decoration: none; cursor: pointer; z-index: 100;}
 .fa-calendar{ color : #ca5b14;}
 .fa-home{ color : #ca5b14;}
 .fa-camera{ color : #ca5b14;}
+.fa-info-circle{ color : #ca5b14;}
 
 div.slideshow { width :100%; height : 35vh;}
 .mySlides { display:none;width :100%; position:relative;}
@@ -557,3 +558,10 @@ tr.divider{
   text-align: center;
   /*do nothing please*/
 }
+
+div.popup { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 1000; }
+div.popup div.overlay { position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; background-color: black; opacity: .5; }
+div.popup div.message { position: absolute; top: 50vh; left: 50vw; width: 90vw; transform: translate(-50%, -50%); }
+div.popup div.message div.title { width: 100%; font-size: 5vw; line-height: 10vw; background-color: #e09400; color: white; text-align: center; }
+div.popup div.message div.content { padding: 3vw; line-height: 6vw; font-size: 4vw; color: #231f20; background-color: white; text-align: center; }
+div.popup div.message div.btn { line-height: 8vw; background-color: white; font-size: 5vw; text-align: center; border-top: 2px solid #231f20; font-weight: bold; padding: 2vw;}
