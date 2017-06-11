@@ -551,12 +551,20 @@ tr.divider{
 .days{
   border-radius: 50%;
   font-size: 1.5vh;
-  background: rgba(255, 50, 0, 0.4);
+  /*background: rgba(255, 50, 0, 0.4);*/
   display: inline-block;
+  background: black;
+  color: white;
+  width: 2vh;
+  height: 2vh;
+  text-align: center;
 }
 .non-days{
   font-size: 1.5vh;
   display: inline-block;
+  text-align: center;
+  width: 2vh;
+  height: 2vh;
 }
 
 .calendar-th{
