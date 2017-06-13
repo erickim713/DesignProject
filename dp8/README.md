@@ -37,13 +37,8 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 https://www.youtube.com/watch?v=q5erGnmg7bU
 
 ### **Individual Reflection:**
-이것을 답하시면 됍니당.
->What part of the UI implementation did you contribute to?
-What worked well and not in your team? How did you overcome any hurdle in teamwork? What lesson about teamwork did you learn that you might apply to your next team project?
-Throughout the team-based design project experience, what did you learn about the user-centered design process and web-based GUI implementation?
 
-
-* Sangyeob Lee
+Sangyeob Lee
 
 >>
 
