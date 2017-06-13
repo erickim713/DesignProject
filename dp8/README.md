@@ -42,10 +42,6 @@ https://www.youtube.com/watch?v=q5erGnmg7bU
 
 ### **Individual Reflection:**
 
-Sangyeob Lee
-
->>
-
 Sunmin Son
 
 > I was in charge of the recording page and the scrollling (time-based and event-based) interface of the history page. I also worked on the initial implementation of the photos page. I believe that our team was a well-balanced team for a project like this because we had two students who had a industrial design background while the other two had a computer science background. Our group meeetings were short, as we were able to easily agree on who would be in charge of which parts. We divided work fairly without much conflict. Each of us did what we promised to do and were able to contribute to the team according to our talents. One hurdle that we had to overcome was the difference in view between team members when deciding which UI seemed to fit our goals. However, we were able to overcome this hurdle through hard and long discussions, respecting each other's views, and coming to a agreeable settlement. One lesson I learned about teamwork is that group meetings are better if they are short. If they become longer, the group becomes inefficient and cirticisms without good solutions may occur, tiring the entire group. Through this expereince, I found that there are other users who think very differently than myself. I always thought if I made a GUI that I liked, other people will probably like it. However, the user-centered design really taught me that I have to get to know the user, including his background and situation. There was a lot more in the design process than I thought! One thing I learned from web-based GUI implementation was that the more the experience in this area, the better. Sangyeob, our group member had a lot of experiece with HTML, CSS, and Javascript, and was therefore able to help us massively in our implementation.
