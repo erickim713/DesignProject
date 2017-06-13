@@ -19,12 +19,15 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 * What changes did we make?
 	- Pop up to give good feedback to the user, make a "instruction" feature so that users can get a clue of what they can do with the application, calendar fix so that it works, main page changes so that user's not encountered with too much information.
 * Concrete examples:
-	- feedbacks we added <br>
-	<img src="feedback1.png" width="300">
-	<img src="feedback2.png" width="300">
+	- Feedbacks we added <br>
+	<img src="feedback1.png" height="500">
+	<img src="feedback2.png" height="500">
 
-	- calendar fix <br>
-	<img src="calendar.png" width="300">
+	- How to use menu <br>
+	<img src="tutorial.png" height="500">
+
+	- Calendar fix <br>
+	<img src="calendar.png" height="500">
 * What did you learn?:
 	- We learned from the user testings that effective and user-satisfying applications can be made; however, there's always room for more user testing that can improve the usability (learnability, efficiency, safety) of the application.
 	- Also we learned that instruction page is actually really helpful. As a developer we thought that instruction page was an extra feature that would be just taking up spot and reduce the simplicity of the application. However, for users who are wondering what applications can do, it was very valuable.
