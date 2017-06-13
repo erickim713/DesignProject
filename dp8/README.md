@@ -25,6 +25,9 @@ Team Members: **Sangyeob Lee, Sunmin Son, Hyungwoo Kim, Kyungyun Lee**
 	- Also we learned that instruction page is actually really helpful. As a developer we thought that instruction page was an extra feature that would be just taking up spot and reduce the simplicity of the application. However, for users who are wondering what applications can do, it was very valuable.
 ----------
 
+### **Link to Video:**
+https://www.youtube.com/watch?v=q5erGnmg7bU
+
 ### **Individual Reflection:**
 이것을 답하시면 됍니당.
 >What part of the UI implementation did you contribute to?
